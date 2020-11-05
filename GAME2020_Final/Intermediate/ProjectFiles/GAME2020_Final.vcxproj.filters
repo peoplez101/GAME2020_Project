@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GAME2020_Final.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{477EB929-2CA3-4A3B-988A-0E529F076D86}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GAME2020_Final.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GAME2020_FinalEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{BBA9FB80-FCEC-4E4C-AF07-A1E4E056838B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GAME2020_Final">
+      <UniqueIdentifier>{4F065B5A-A546-42BF-A929-C923679BFF50}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GAME2020_Final\GAME2020_Final.Build.cs">
+      <Filter>Source\GAME2020_Final</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GAME2020_Final\GAME2020_Final.cpp">
+      <Filter>Source\GAME2020_Final</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAME2020_Final\GAME2020_Final.h">
+      <Filter>Source\GAME2020_Final</Filter>
+    </ClInclude>
+    <Filter Include="Source\GAME2020_Final\TP_Vehicle">
+      <UniqueIdentifier>{3E2311A6-D77E-4E74-A014-787AC4A2B902}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\GAME2020_Final\TP_Vehicle\TP_Vehicle.h">
+      <Filter>Source\GAME2020_Final\TP_Vehicle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GAME2020_Final\TP_Vehicle\TP_VehicleGameMode.cpp">
+      <Filter>Source\GAME2020_Final\TP_Vehicle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAME2020_Final\TP_Vehicle\TP_VehicleGameMode.h">
+      <Filter>Source\GAME2020_Final\TP_Vehicle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GAME2020_Final\TP_Vehicle\TP_VehicleHud.cpp">
+      <Filter>Source\GAME2020_Final\TP_Vehicle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAME2020_Final\TP_Vehicle\TP_VehicleHud.h">
+      <Filter>Source\GAME2020_Final\TP_Vehicle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GAME2020_Final\TP_Vehicle\TP_VehiclePawn.cpp">
+      <Filter>Source\GAME2020_Final\TP_Vehicle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAME2020_Final\TP_Vehicle\TP_VehiclePawn.h">
+      <Filter>Source\GAME2020_Final\TP_Vehicle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GAME2020_Final\TP_Vehicle\TP_VehicleWheelFront.cpp">
+      <Filter>Source\GAME2020_Final\TP_Vehicle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAME2020_Final\TP_Vehicle\TP_VehicleWheelFront.h">
+      <Filter>Source\GAME2020_Final\TP_Vehicle</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GAME2020_Final\TP_Vehicle\TP_VehicleWheelRear.cpp">
+      <Filter>Source\GAME2020_Final\TP_Vehicle</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAME2020_Final\TP_Vehicle\TP_VehicleWheelRear.h">
+      <Filter>Source\GAME2020_Final\TP_Vehicle</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

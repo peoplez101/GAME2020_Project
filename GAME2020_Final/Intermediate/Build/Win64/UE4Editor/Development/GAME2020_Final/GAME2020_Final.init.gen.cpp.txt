@@ -1,0 +1,3 @@
+C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\Definitions.GAME2020_Final.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.25\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
