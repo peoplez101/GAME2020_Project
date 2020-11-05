@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GAME2020_Final.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A10CD3ED-7C48-493E-AD12-712A1D96F1FA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GAME2020_Final.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GAME2020_FinalEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{07B76B54-D580-4871-B960-62CC3F9D59E9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GAME2020_Final">
+      <UniqueIdentifier>{49E9EF21-4A70-4F99-8FC2-265F97105E3A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\GAME2020_Final\FPSProjectile.cpp">
+      <Filter>Source\GAME2020_Final</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAME2020_Final\FPSProjectile.h">
+      <Filter>Source\GAME2020_Final</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\GAME2020_Final\GAME2020_Final.Build.cs">
+      <Filter>Source\GAME2020_Final</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GAME2020_Final\GAME2020_Final.cpp">
+      <Filter>Source\GAME2020_Final</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GAME2020_Final\GAME2020_Final.h">
+      <Filter>Source\GAME2020_Final</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

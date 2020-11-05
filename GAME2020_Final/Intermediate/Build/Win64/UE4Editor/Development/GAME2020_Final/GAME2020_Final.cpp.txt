@@ -1,0 +1,2 @@
+C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\Definitions.GAME2020_Final.h
+C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Source\GAME2020_Final\GAME2020_Final.h

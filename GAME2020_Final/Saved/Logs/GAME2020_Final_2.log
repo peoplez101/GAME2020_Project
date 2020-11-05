@@ -1,8 +1,8 @@
-﻿Log file open, 11/04/20 21:04:04
+﻿Log file open, 11/05/20 11:53:40
 LogInit: Display: Running engine for game: GAME2020_Final
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.279203
+LogStats: Stats thread started at 0.226879
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -195,879 +195,724 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
-[2020.11.05-02.04.05:476][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.11.05-02.04.05:476][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.11.05-02.04.05:477][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.11.05-02.04.05:477][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.11.05-02.04.05:477][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.11.05-02.04.05:477][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.11.05-02.04.05:477][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.11.05-02.04.05:477][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
-[2020.11.05-02.04.05:477][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
-[2020.11.05-02.04.05:480][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.05-02.04.05:480][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.05-02.04.05:481][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.05-02.04.05:482][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.05-02.04.05:483][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.05-02.04.05:483][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.11.05-02.04.05:483][  0]LogHAL: Display: Platform has ~ 8 GB [8419069952 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.11.05-02.04.05:483][  0]LogInit: Going up to parent DeviceProfile []
-[2020.11.05-02.04.05:483][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.11.05-02.04.05:483][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.11.05-02.04.05:484][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:484][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.11.05-02.04.05:485][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.11.05-02.04.05:486][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.11.05-02.04.05:486][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.11.05-02.04.05:486][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.11.05-02.04.05:486][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
-[2020.11.05-02.04.05:486][  0]LogInit: Computer: LAPTOP-L4CND8VI
-[2020.11.05-02.04.05:486][  0]LogInit: User: Raquel
-[2020.11.05-02.04.05:486][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.11.05-02.04.05:486][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.11.05-02.04.05:486][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
-[2020.11.05-02.04.05:486][  0]LogMemory: Platform Memory Stats for Windows
-[2020.11.05-02.04.05:486][  0]LogMemory: Process Physical Memory: 113.76 MB used, 113.76 MB peak
-[2020.11.05-02.04.05:486][  0]LogMemory: Process Virtual Memory: 96.01 MB used, 96.01 MB peak
-[2020.11.05-02.04.05:486][  0]LogMemory: Physical Memory: 6926.49 MB used,  1102.56 MB free, 8029.05 MB total
-[2020.11.05-02.04.05:486][  0]LogMemory: Virtual Memory: 5143.11 MB used,  134212584.00 MB free, 134217728.00 MB total
-[2020.11.05-02.04.05:493][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.11.05-02.04.05:552][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.11.05-02.04.05:554][  0]LogInit: Using OS detected language (en-US).
-[2020.11.05-02.04.05:554][  0]LogInit: Using OS detected locale (en-CA).
-[2020.11.05-02.04.05:559][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.11.05-02.04.05:882][  0]LogInit: Setting process to per monitor DPI aware
-[2020.11.05-02.04.05:931][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.11.05-02.04.05:931][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.11.05-02.04.06:268][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.05-02.04.06:268][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.11.05-02.04.06:269][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.11.05-02.04.06:269][  0]LogD3D11RHI: D3D11 adapters:
-[2020.11.05-02.04.06:418][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650' (Feature Level 11_0)
-[2020.11.05-02.04.06:418][  0]LogD3D11RHI:       3962/0/4014 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.11.05-02.04.06:446][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2020.11.05-02.04.06:446][  0]LogD3D11RHI:       128/0/4014 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2020.11.05-02.04.06:450][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.11.05-02.04.06:450][  0]LogD3D11RHI:       0/0/4014 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.11.05-02.04.06:450][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.11.05-02.04.06:523][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.11.05-02.04.06:524][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
-[2020.11.05-02.04.06:524][  0]LogWindows: EnumDisplayDevices:
-[2020.11.05-02.04.06:524][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2020.11.05-02.04.06:525][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.11.05-02.04.06:525][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2020.11.05-02.04.06:526][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1650' (P:0 D:0)
-[2020.11.05-02.04.06:526][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
-[2020.11.05-02.04.06:526][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650
-[2020.11.05-02.04.06:526][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
-[2020.11.05-02.04.06:526][  0]LogD3D11RHI:      Driver Date: 7-5-2020
-[2020.11.05-02.04.06:526][  0]LogRHI: Texture pool is 2773 MB (70% of 3962 MB)
-[2020.11.05-02.04.06:618][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.11.05-02.04.06:618][  0]LogD3D11RHI: Async texture creation enabled
-[2020.11.05-02.04.06:618][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.11.05-02.04.06:636][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.11.05-02.04.07:353][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.11.05-02.04.07:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.11.05-02.04.07:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.11.05-02.04.07:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.11.05-02.04.07:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.11.05-02.04.07:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.11.05-02.04.07:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.11.05-02.04.07:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.11.05-02.04.07:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.11.05-02.04.07:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.11.05-02.04.07:395][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.11.05-02.04.07:443][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.11.05-02.04.07:443][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.11.05-02.04.07:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.11.05-02.04.07:478][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.11.05-02.04.07:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.11.05-02.04.07:510][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.11.05-02.04.07:526][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.11.05-02.04.07:546][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.11.05-02.04.07:561][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.11.05-02.04.07:611][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.11.05-02.04.07:611][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.11.05-02.04.07:645][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.11.05-02.04.07:645][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.11.05-02.04.07:662][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.11.05-02.04.07:678][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.11.05-02.04.07:693][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.11.05-02.04.07:707][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.11.05-02.04.07:707][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.11.05-02.04.07:719][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.11.05-02.04.07:816][  0]LogShaderCompilers: Guid format shader working directory is -26 characters bigger than the processId version (../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Intermediate/Shaders/WorkingDirectory/6108/).
-[2020.11.05-02.04.07:817][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Raquel/AppData/Local/Temp/UnrealShaderWorkingDir/29B47C1042CF602A9B496685BBFAE3B6/'.
-[2020.11.05-02.04.07:818][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.11.05-02.04.07:818][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.11.05-02.04.07:818][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.11.05-02.04.09:093][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.11.05-02.04.09:210][  0]LogDerivedDataCache: Loaded boot cache 0.12s 91MB C:/Users/Raquel/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.05-02.04.09:210][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Raquel/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.11.05-02.04.09:211][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.11.05-02.04.09:211][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.11.05-02.04.09:211][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.05-02.04.09:211][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.11.05-02.04.09:228][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.11.05-02.04.09:228][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.11.05-02.04.09:228][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.11.05-02.04.09:230][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Raquel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.11.05-02.04.09:230][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.11.05-02.04.09:230][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.11.05-02.04.09:316][  0]LogSlate: Using FreeType 2.10.0
-[2020.11.05-02.04.09:317][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.11.05-02.04.09:357][  0]LogAssetRegistry: FAssetRegistry took 0.0034 seconds to start up
-[2020.11.05-02.04.09:862][  0]LogInit: Selected Device Profile: [Windows]
-[2020.11.05-02.04.10:089][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.11.05-02.04.10:089][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.11.05-02.04.10:089][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.11.05-02.04.10:089][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.11.05-02.04.10:090][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.11.05-02.04.10:123][  0]LogNetVersion: GAME2020_Final 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3070344347)
-[2020.11.05-02.04.10:979][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000027F492143C0), frame # 0
-[2020.11.05-02.04.10:979][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027F4BDE2840), frame # 0
-[2020.11.05-02.04.10:981][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027F4BE31E00), frame # 0
-[2020.11.05-02.04.11:076][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.085832 seconds
-[2020.11.05-02.04.11:083][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2020.11.05-02.04.11:083][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2020.11.05-02.04.11:083][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.11.05-02.04.11:644][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.11.05-02.04.11:650][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.11.05-02.04.11:716][  0]LogLinker: Warning: Failed to load '/Game/VehicleCPP/VehicleOverview': Can't find file.
-[2020.11.05-02.04.11:717][  0]LogLinker: Warning: Failed to load '/Game/VehicleCPP/VehicleOverview': Can't find file.
-[2020.11.05-02.04.11:717][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/VehicleCPP/VehicleOverview.VehicleOverview_C'
-[2020.11.05-02.04.11:775][  0]SourceControl: Source control is disabled
-[2020.11.05-02.04.11:775][  0]SourceControl: Source control is disabled
-[2020.11.05-02.04.11:780][  0]SourceControl: Source control is disabled
-[2020.11.05-02.04.11:783][  0]SourceControl: Source control is disabled
-[2020.11.05-02.04.11:792][  0]SourceControl: Source control is disabled
-[2020.11.05-02.04.12:546][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.11.05-02.04.12:594][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.05-02.04.12:594][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.11.05-02.04.12:712][  0]LogOcInput: OculusInput pre-init called
-[2020.11.05-02.04.12:733][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.11.05-02.04.12:733][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.11.05-02.04.12:872][  0]LogEngine: Initializing Engine...
-[2020.11.05-02.04.12:874][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.11.05-02.04.12:874][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.11.05-02.04.12:877][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.11.05-02.04.13:187][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.11.05-02.04.13:202][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.11.05-02.04.13:202][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027F32446200), frame # 0
-[2020.11.05-02.04.13:202][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027F32491A80), frame # 0
-[2020.11.05-02.04.13:235][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.11.05-02.04.13:235][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.11.05-02.04.13:235][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.11.05-02.04.13:235][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.11.05-02.04.13:235][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.11.05-02.04.13:235][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.11.05-02.04.13:235][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.11.05-02.04.13:235][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.11.05-02.04.13:236][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.11.05-02.04.13:236][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.11.05-02.04.13:258][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.11.05-02.04.13:259][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.11.05-02.04.13:388][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
-[2020.11.05-02.04.13:394][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.11.05-02.04.13:400][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.11.05-02.04.13:400][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.11.05-02.04.13:402][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.11.05-02.04.13:426][  0]LogInit: FAudioDevice initialized.
-[2020.11.05-02.04.13:427][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.11.05-02.04.13:528][  0]LogDerivedDataCache: Saved boot cache 0.10s 91MB C:/Users/Raquel/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.11.05-02.04.13:538][  0]LogInit: Texture streaming: Enabled
-[2020.11.05-02.04.13:566][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.11.05-02.04.13:567][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.11.05-02.04.13:572][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.11.05-02.04.13:676][  0]LogInit: Transaction tracking system initialized
-[2020.11.05-02.04.13:709][  0]BlueprintLog: New page: Editor Load
-[2020.11.05-02.04.13:828][  0]LocalizationService: Localization service is disabled
-[2020.11.05-02.04.14:128][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.11.05-02.04.14:128][  0]LogCook: Display: Mobile HDR setting 1
-[2020.11.05-02.04.14:151][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/' took 0.01s
-[2020.11.05-02.04.14:788][  0]SourceControl: Source control is disabled
-[2020.11.05-02.04.14:788][  0]LogUnrealEdMisc: Loading editor; pre map load, took 11.994
-[2020.11.05-02.04.14:789][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StarterContent/Maps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.11.05-02.04.14:789][  0]LightingResults: New page: Lighting Build
-[2020.11.05-02.04.14:790][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.11.05-02.04.14:791][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.11.05-02.04.14:791][  0]MapCheck: New page: Map Check
-[2020.11.05-02.04.14:791][  0]LightingResults: New page: Lighting Build
-[2020.11.05-02.04.14:808][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027F32446200), frame # 0
-[2020.11.05-02.04.14:808][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027F32491A80), frame # 0
-[2020.11.05-02.04.14:809][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
-[2020.11.05-02.04.15:499][  0]LogAIModule: Creating AISystem for world Map1
-[2020.11.05-02.04.15:501][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000027F40CB8800), frame # 0
-[2020.11.05-02.04.15:501][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000027F41136C00), frame # 0
-[2020.11.05-02.04.23:828][  0]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2020.11.05-02.04.23:941][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
-[2020.11.05-02.04.23:943][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.11.05-02.04.23:945][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.26ms to complete.
-[2020.11.05-02.04.23:945][  0]LogFileHelpers: Loading map 'Map1' took 9.156
-[2020.11.05-02.04.24:021][  0]LogUnrealEdMisc: Total Editor Startup Time, took 21.226
-[2020.11.05-02.04.24:331][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.05-02.04.24:347][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.05-02.04.24:363][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.05-02.04.24:378][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.11.05-02.04.24:399][  0]LogCollectionManager: Loaded 0 collections in 0.003818 seconds
-[2020.11.05-02.04.24:459][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Collections/' took 0.00s
-[2020.11.05-02.04.24:459][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/Developers/Raquel/Collections/' took 0.00s
-[2020.11.05-02.04.24:459][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/Collections/' took 0.00s
-[2020.11.05-02.04.24:459][  0]LogContentBrowser: Native class hierarchy populated in 0.0203 seconds. Added 3433 classes and 824 folders.
-[2020.11.05-02.04.24:475][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2020.11.05-02.04.25:110][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2020.11.05-02.04.25:118][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 0 folders.
-[2020.11.05-02.04.25:564][  0]LogSlate: Took 0.007371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.11.05-02.04.25:581][  0]LogSlate: Took 0.012554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.11.05-02.04.25:609][  0]LogSlate: Took 0.013059 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.11.05-02.04.25:854][  0]LogRenderer: Reallocating scene render targets to support 964x440 Format 10 NumSamples 1 (Frame:1).
-[2020.11.05-02.04.26:048][  0]LogSlate: Took 0.014752 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.11.05-02.04.26:255][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0015 seconds. Added 0 classes and 0 folders.
-[2020.11.05-02.04.26:255][  0]LogLoad: (Engine Initialization) Total time: 23.46 seconds
-[2020.11.05-02.04.26:255][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.11.05-02.04.26:674][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.11.05-02.04.27:397][ 10]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.11.05-02.04.32:371][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
-[2020.11.05-02.04.32:595][116]LogSlate: Window 'GAME2020_Final - Unreal Editor' being destroyed
-[2020.11.05-02.04.32:598][116]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.11.05-02.04.32:900][117]Cmd: QUIT_EDITOR
-[2020.11.05-02.04.32:900][117]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
-[2020.11.05-02.04.32:926][117]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2020.11.05-02.04.33:053][117]LogExit: Preparing to exit.
-[2020.11.05-02.04.33:879][117]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2020.11.05-02.04.33:973][117]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2020.11.05-02.04.33:996][117]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
-[2020.11.05-02.04.34:002][117]LogExit: Editor shut down
-[2020.11.05-02.04.34:004][117]LogExit: Transaction tracking system shut down
-[2020.11.05-02.04.34:285][117]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000027F492143C0), frame # 117
-[2020.11.05-02.04.34:285][117]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027F4BDE2840), frame # 117
-[2020.11.05-02.04.34:288][117]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027F4BE31E00), frame # 117
-[2020.11.05-02.04.34:467][117]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000027F40CB8800), frame # 117
-[2020.11.05-02.04.34:467][117]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000027F41136C00), frame # 117
-[2020.11.05-02.04.34:526][117]LogExit: Object subsystem successfully closed.
-[2020.11.05-02.04.34:602][117]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.11.05-02.04.34:782][117]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
-[2020.11.05-02.04.34:782][117]LogModuleManager: Shutting down and abandoning module SceneOutliner (790)
-[2020.11.05-02.04.34:783][117]LogModuleManager: Shutting down and abandoning module AddContentDialog (788)
-[2020.11.05-02.04.34:786][117]LogModuleManager: Shutting down and abandoning module WidgetCarousel (787)
-[2020.11.05-02.04.34:786][117]LogModuleManager: Shutting down and abandoning module EditorWidgets (784)
-[2020.11.05-02.04.34:786][117]LogModuleManager: Shutting down and abandoning module CollectionManager (782)
-[2020.11.05-02.04.34:787][117]LogModuleManager: Shutting down and abandoning module StatsViewer (780)
-[2020.11.05-02.04.34:788][117]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (778)
-[2020.11.05-02.04.34:788][117]LogModuleManager: Shutting down and abandoning module FoliageEdit (776)
-[2020.11.05-02.04.34:789][117]LogModuleManager: Shutting down and abandoning module LandscapeEditor (774)
-[2020.11.05-02.04.34:794][117]LogModuleManager: Shutting down and abandoning module MeshPaintMode (772)
-[2020.11.05-02.04.34:794][117]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (770)
-[2020.11.05-02.04.34:794][117]LogModuleManager: Shutting down and abandoning module ActorPickerMode (768)
-[2020.11.05-02.04.34:794][117]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (766)
-[2020.11.05-02.04.34:796][117]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (764)
-[2020.11.05-02.04.34:796][117]LogModuleManager: Shutting down and abandoning module AutomationWorker (762)
-[2020.11.05-02.04.34:797][117]LogModuleManager: Shutting down and abandoning module SteamVREditor (760)
-[2020.11.05-02.04.34:798][117]LogModuleManager: Shutting down and abandoning module OculusMR (758)
-[2020.11.05-02.04.34:798][117]LogModuleManager: Shutting down and abandoning module GooglePADEditor (756)
-[2020.11.05-02.04.34:798][117]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (754)
-[2020.11.05-02.04.34:799][117]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (752)
-[2020.11.05-02.04.34:803][117]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (750)
-[2020.11.05-02.04.34:806][117]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (748)
-[2020.11.05-02.04.34:809][117]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (746)
-[2020.11.05-02.04.34:811][117]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (744)
-[2020.11.05-02.04.34:811][117]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (742)
-[2020.11.05-02.04.34:811][117]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (740)
-[2020.11.05-02.04.34:812][117]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (738)
-[2020.11.05-02.04.34:812][117]LogModuleManager: Shutting down and abandoning module WebMMedia (736)
-[2020.11.05-02.04.34:812][117]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (734)
-[2020.11.05-02.04.34:814][117]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (732)
-[2020.11.05-02.04.34:815][117]LogModuleManager: Shutting down and abandoning module SequenceRecorder (731)
-[2020.11.05-02.04.34:816][117]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (728)
-[2020.11.05-02.04.34:816][117]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (726)
-[2020.11.05-02.04.34:816][117]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (724)
-[2020.11.05-02.04.34:816][117]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (722)
-[2020.11.05-02.04.34:816][117]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (720)
-[2020.11.05-02.04.34:816][117]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (718)
-[2020.11.05-02.04.34:816][117]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (716)
-[2020.11.05-02.04.34:816][117]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (714)
-[2020.11.05-02.04.34:816][117]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (712)
-[2020.11.05-02.04.34:817][117]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (710)
-[2020.11.05-02.04.34:817][117]LogModuleManager: Shutting down and abandoning module PlanarCut (708)
-[2020.11.05-02.04.34:817][117]LogModuleManager: Shutting down and abandoning module CharacterAI (706)
-[2020.11.05-02.04.34:817][117]LogModuleManager: Shutting down and abandoning module TextureAlignMode (704)
-[2020.11.05-02.04.34:817][117]LogModuleManager: Shutting down and abandoning module BspMode (702)
-[2020.11.05-02.04.34:818][117]LogModuleManager: Shutting down and abandoning module PlacementMode (701)
-[2020.11.05-02.04.34:818][117]LogModuleManager: Shutting down and abandoning module GeometryMode (698)
-[2020.11.05-02.04.34:818][117]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (696)
-[2020.11.05-02.04.34:821][117]LogModuleManager: Shutting down and abandoning module SmartSnapping (694)
-[2020.11.05-02.04.34:821][117]LogModuleManager: Shutting down and abandoning module SessionServices (692)
-[2020.11.05-02.04.34:822][117]LogModuleManager: Shutting down and abandoning module MeshPaint (690)
-[2020.11.05-02.04.34:823][117]LogModuleManager: Shutting down and abandoning module ViewportSnapping (688)
-[2020.11.05-02.04.34:823][117]LogModuleManager: Shutting down and abandoning module ViewportInteraction (686)
-[2020.11.05-02.04.34:823][117]LogModuleManager: Shutting down and abandoning module ClothPainter (684)
-[2020.11.05-02.04.34:826][117]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (683)
-[2020.11.05-02.04.34:828][117]LogModuleManager: Shutting down and abandoning module LogVisualizer (680)
-[2020.11.05-02.04.34:830][117]LogModuleManager: Shutting down and abandoning module IntroTutorials (678)
-[2020.11.05-02.04.34:830][117]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (677)
-[2020.11.05-02.04.34:832][117]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (674)
-[2020.11.05-02.04.34:832][117]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (672)
-[2020.11.05-02.04.34:833][117]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (670)
-[2020.11.05-02.04.34:833][117]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (669)
-[2020.11.05-02.04.35:949][117]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (666)
-[2020.11.05-02.04.35:949][117]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (664)
-[2020.11.05-02.04.35:949][117]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (662)
-[2020.11.05-02.04.35:949][117]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (660)
-[2020.11.05-02.04.35:949][117]LogModuleManager: Shutting down and abandoning module TraceInsights (658)
-[2020.11.05-02.04.35:957][117]LogModuleManager: Shutting down and abandoning module TraceServices (657)
-[2020.11.05-02.04.35:959][117]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (654)
-[2020.11.05-02.04.35:959][117]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (652)
-[2020.11.05-02.04.35:959][117]LogModuleManager: Shutting down and abandoning module InputBindingEditor (650)
-[2020.11.05-02.04.35:960][117]LogModuleManager: Shutting down and abandoning module MergeActors (648)
-[2020.11.05-02.04.35:961][117]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (646)
-[2020.11.05-02.04.35:963][117]LogModuleManager: Shutting down and abandoning module LocalizationService (645)
-[2020.11.05-02.04.35:964][117]LogModuleManager: Shutting down and abandoning module HardwareTargeting (642)
-[2020.11.05-02.04.35:964][117]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (640)
-[2020.11.05-02.04.35:965][117]LogModuleManager: Shutting down and abandoning module UndoHistory (638)
-[2020.11.05-02.04.35:965][117]LogModuleManager: Shutting down and abandoning module XmlParser (636)
-[2020.11.05-02.04.35:966][117]LogModuleManager: Shutting down and abandoning module Blutility (634)
-[2020.11.05-02.04.35:966][117]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (632)
-[2020.11.05-02.04.35:967][117]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (631)
-[2020.11.05-02.04.35:968][117]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (628)
-[2020.11.05-02.04.35:969][117]LogModuleManager: Shutting down and abandoning module SettingsEditor (626)
-[2020.11.05-02.04.35:971][117]LogModuleManager: Shutting down and abandoning module ProjectLauncher (624)
-[2020.11.05-02.04.35:973][117]LogModuleManager: Shutting down and abandoning module SessionFrontend (622)
-[2020.11.05-02.04.35:973][117]LogModuleManager: Shutting down and abandoning module ProfilerClient (620)
-[2020.11.05-02.04.35:974][117]LogModuleManager: Shutting down and abandoning module DeviceManager (618)
-[2020.11.05-02.04.35:975][117]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (617)
-[2020.11.05-02.04.36:008][117]LogModuleManager: Shutting down and abandoning module AutomationController (614)
-[2020.11.05-02.04.36:008][117]LogModuleManager: Shutting down and abandoning module AutomationWindow (612)
-[2020.11.05-02.04.36:009][117]LogModuleManager: Shutting down and abandoning module Layers (610)
-[2020.11.05-02.04.36:011][117]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (608)
-[2020.11.05-02.04.36:011][117]LogModuleManager: Shutting down and abandoning module DetailCustomizations (606)
-[2020.11.05-02.04.36:012][117]LogModuleManager: Shutting down and abandoning module PackagesDialog (604)
-[2020.11.05-02.04.36:013][117]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (602)
-[2020.11.05-02.04.36:016][117]LogModuleManager: Shutting down and abandoning module Persona (600)
-[2020.11.05-02.04.36:018][117]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (599)
-[2020.11.05-02.04.36:018][117]LogModuleManager: Shutting down and abandoning module AnimGraph (597)
-[2020.11.05-02.04.36:019][117]LogModuleManager: Shutting down and abandoning module Kismet (594)
-[2020.11.05-02.04.36:022][117]LogModuleManager: Shutting down and abandoning module KismetWidgets (593)
-[2020.11.05-02.04.36:022][117]LogModuleManager: Shutting down and abandoning module GraphEditor (590)
-[2020.11.05-02.04.36:025][117]LogModuleManager: Shutting down and abandoning module StructViewer (588)
-[2020.11.05-02.04.36:026][117]LogModuleManager: Shutting down and abandoning module ClassViewer (586)
-[2020.11.05-02.04.36:026][117]LogModuleManager: Shutting down and abandoning module Toolbox (584)
-[2020.11.05-02.04.36:027][117]LogModuleManager: Shutting down and abandoning module ModuleUI (582)
-[2020.11.05-02.04.36:027][117]LogModuleManager: Shutting down and abandoning module OutputLog (580)
-[2020.11.05-02.04.36:029][117]LogModuleManager: Shutting down and abandoning module GammaUI (578)
-[2020.11.05-02.04.36:029][117]LogModuleManager: Shutting down and abandoning module Documentation (576)
-[2020.11.05-02.04.36:029][117]LogModuleManager: Shutting down and abandoning module LiveCoding (574)
-[2020.11.05-02.04.36:030][117]LogModuleManager: Shutting down and abandoning module LevelSequence (572)
-[2020.11.05-02.04.36:030][117]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (570)
-[2020.11.05-02.04.36:031][117]LogModuleManager: Shutting down and abandoning module MovieScene (568)
-[2020.11.05-02.04.36:031][117]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (566)
-[2020.11.05-02.04.36:031][117]LogModuleManager: Shutting down and abandoning module LauncherPlatform (564)
-[2020.11.05-02.04.36:031][117]LogModuleManager: Shutting down and abandoning module AnalyticsET (562)
-[2020.11.05-02.04.36:031][117]LogModuleManager: Shutting down and abandoning module PortalServices (560)
-[2020.11.05-02.04.36:031][117]LogModuleManager: Shutting down and abandoning module PortalRpc (558)
-[2020.11.05-02.04.36:031][117]LogModuleManager: Shutting down and abandoning module MessagingRpc (556)
-[2020.11.05-02.04.36:031][117]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (554)
-[2020.11.05-02.04.36:031][117]LogModuleManager: Shutting down and abandoning module AudioMixerCore (553)
-[2020.11.05-02.04.36:031][117]LogModuleManager: Shutting down and abandoning module AIModule (550)
-[2020.11.05-02.04.36:032][117]LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
-[2020.11.05-02.04.36:032][117]LogModuleManager: Shutting down and abandoning module AITestSuite (547)
-[2020.11.05-02.04.36:033][117]LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
-[2020.11.05-02.04.36:033][117]LogModuleManager: Shutting down and abandoning module ProfilerService (542)
-[2020.11.05-02.04.36:172][117]LogModuleManager: Shutting down and abandoning module TaskGraph (540)
-[2020.11.05-02.04.36:173][117]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
-[2020.11.05-02.04.36:174][117]LogModuleManager: Shutting down and abandoning module SynthesisEditor (536)
-[2020.11.05-02.04.36:174][117]LogModuleManager: Shutting down and abandoning module Synthesis (534)
-[2020.11.05-02.04.36:175][117]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (532)
-[2020.11.05-02.04.36:175][117]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (530)
-[2020.11.05-02.04.36:175][117]LogModuleManager: Shutting down and abandoning module OculusEditor (528)
-[2020.11.05-02.04.36:176][117]LogModuleManager: Shutting down and abandoning module OculusInput (526)
-[2020.11.05-02.04.36:176][117]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (524)
-[2020.11.05-02.04.36:176][117]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
-[2020.11.05-02.04.36:176][117]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
-[2020.11.05-02.04.36:176][117]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
-[2020.11.05-02.04.36:176][117]LogModuleManager: Shutting down and abandoning module CableComponent (516)
-[2020.11.05-02.04.36:176][117]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
-[2020.11.05-02.04.36:176][117]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
-[2020.11.05-02.04.36:177][117]LogModuleManager: Shutting down and abandoning module AssetTags (510)
-[2020.11.05-02.04.36:177][117]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
-[2020.11.05-02.04.36:177][117]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
-[2020.11.05-02.04.36:177][117]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
-[2020.11.05-02.04.36:177][117]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
-[2020.11.05-02.04.36:177][117]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (500)
-[2020.11.05-02.04.36:177][117]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (498)
-[2020.11.05-02.04.36:179][117]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
-[2020.11.05-02.04.36:179][117]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (494)
-[2020.11.05-02.04.36:179][117]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (492)
-[2020.11.05-02.04.36:179][117]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (490)
-[2020.11.05-02.04.36:179][117]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (488)
-[2020.11.05-02.04.36:179][117]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (487)
-[2020.11.05-02.04.36:179][117]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (484)
-[2020.11.05-02.04.36:180][117]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (482)
-[2020.11.05-02.04.36:180][117]LogModuleManager: Shutting down and abandoning module MediaCompositing (480)
-[2020.11.05-02.04.36:180][117]LogModuleManager: Shutting down and abandoning module ImgMedia (478)
-[2020.11.05-02.04.36:181][117]LogModuleManager: Shutting down and abandoning module UIWS (476)
-[2020.11.05-02.04.36:181][117]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
-[2020.11.05-02.04.36:181][117]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
-[2020.11.05-02.04.36:181][117]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
-[2020.11.05-02.04.36:181][117]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
-[2020.11.05-02.04.36:181][117]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
-[2020.11.05-02.04.36:181][117]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
-[2020.11.05-02.04.36:185][117]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
-[2020.11.05-02.04.36:186][117]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
-[2020.11.05-02.04.36:187][117]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
-[2020.11.05-02.04.36:188][117]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
-[2020.11.05-02.04.36:189][117]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
-[2020.11.05-02.04.36:189][117]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
-[2020.11.05-02.04.36:189][117]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
-[2020.11.05-02.04.36:189][117]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
-[2020.11.05-02.04.36:190][117]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
-[2020.11.05-02.04.36:190][117]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
-[2020.11.05-02.04.36:190][117]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
-[2020.11.05-02.04.36:190][117]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
-[2020.11.05-02.04.36:190][117]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
-[2020.11.05-02.04.36:191][117]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
-[2020.11.05-02.04.36:191][117]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
-[2020.11.05-02.04.36:191][117]LogModuleManager: Shutting down and abandoning module BackChannel (432)
-[2020.11.05-02.04.36:192][117]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
-[2020.11.05-02.04.36:192][117]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
-[2020.11.05-02.04.36:192][117]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
-[2020.11.05-02.04.36:192][117]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
-[2020.11.05-02.04.36:192][117]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
-[2020.11.05-02.04.36:192][117]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
-[2020.11.05-02.04.36:192][117]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
-[2020.11.05-02.04.36:192][117]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
-[2020.11.05-02.04.36:193][117]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
-[2020.11.05-02.04.36:193][117]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
-[2020.11.05-02.04.36:196][117]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
-[2020.11.05-02.04.36:197][117]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
-[2020.11.05-02.04.36:197][117]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
-[2020.11.05-02.04.36:198][117]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
-[2020.11.05-02.04.36:199][117]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
-[2020.11.05-02.04.36:200][117]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
-[2020.11.05-02.04.36:200][117]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
-[2020.11.05-02.04.36:200][117]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
-[2020.11.05-02.04.36:200][117]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
-[2020.11.05-02.04.36:200][117]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
-[2020.11.05-02.04.36:202][117]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
-[2020.11.05-02.04.36:202][117]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
-[2020.11.05-02.04.36:205][117]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
-[2020.11.05-02.04.36:208][117]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
-[2020.11.05-02.04.36:209][117]LogModuleManager: Shutting down and abandoning module SourceControl (383)
-[2020.11.05-02.04.36:209][117]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
-[2020.11.05-02.04.36:210][117]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
-[2020.11.05-02.04.36:210][117]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
-[2020.11.05-02.04.36:210][117]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
-[2020.11.05-02.04.36:210][117]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
-[2020.11.05-02.04.36:211][117]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
-[2020.11.05-02.04.36:211][117]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
-[2020.11.05-02.04.36:211][117]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
-[2020.11.05-02.04.36:212][117]LogModuleManager: Shutting down and abandoning module SoundFields (364)
-[2020.11.05-02.04.36:213][117]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
-[2020.11.05-02.04.36:213][117]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
-[2020.11.05-02.04.36:213][117]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
-[2020.11.05-02.04.36:213][117]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
-[2020.11.05-02.04.36:213][117]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
-[2020.11.05-02.04.36:213][117]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
-[2020.11.05-02.04.36:314][117]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
-[2020.11.05-02.04.36:415][117]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
-[2020.11.05-02.04.36:415][117]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
-[2020.11.05-02.04.36:415][117]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
-[2020.11.05-02.04.36:415][117]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
-[2020.11.05-02.04.36:415][117]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
-[2020.11.05-02.04.36:415][117]LogMagicLeapPlanes: Planes tracker already destroyed.
-[2020.11.05-02.04.36:416][117]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
-[2020.11.05-02.04.36:417][117]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
-[2020.11.05-02.04.36:417][117]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
-[2020.11.05-02.04.36:417][117]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
-[2020.11.05-02.04.36:417][117]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
-[2020.11.05-02.04.36:418][117]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2020.11.05-02.04.36:418][117]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
-[2020.11.05-02.04.36:419][117]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
-[2020.11.05-02.04.36:420][117]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
-[2020.11.05-02.04.36:421][117]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
-[2020.11.05-02.04.36:421][117]LogModuleManager: Shutting down and abandoning module Niagara (318)
-[2020.11.05-02.04.36:422][117]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
-[2020.11.05-02.04.36:423][117]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
-[2020.11.05-02.04.36:426][117]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
-[2020.11.05-02.04.36:426][117]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
-[2020.11.05-02.04.36:427][117]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
-[2020.11.05-02.04.36:427][117]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
-[2020.11.05-02.04.36:427][117]LogModuleManager: Shutting down and abandoning module DataValidation (304)
-[2020.11.05-02.04.36:427][117]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
-[2020.11.05-02.04.36:429][117]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
-[2020.11.05-02.04.36:432][117]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
-[2020.11.05-02.04.36:433][117]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
-[2020.11.05-02.04.36:435][117]LogModuleManager: Shutting down and abandoning module MainFrame (296)
-[2020.11.05-02.04.36:435][117]LogModuleManager: Shutting down and abandoning module HotReload (295)
-[2020.11.05-02.04.36:436][117]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
-[2020.11.05-02.04.36:436][117]LogModuleManager: Shutting down and abandoning module TreeMap (289)
-[2020.11.05-02.04.36:437][117]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
-[2020.11.05-02.04.36:437][117]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
-[2020.11.05-02.04.36:437][117]LogModuleManager: Shutting down and abandoning module Paper2D (282)
-[2020.11.05-02.04.36:437][117]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
-[2020.11.05-02.04.36:451][117]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
-[2020.11.05-02.04.36:451][117]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
-[2020.11.05-02.04.36:451][117]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
-[2020.11.05-02.04.36:451][117]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
-[2020.11.05-02.04.36:451][117]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
-[2020.11.05-02.04.36:453][117]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
-[2020.11.05-02.04.36:455][117]LogModuleManager: Shutting down and abandoning module Overlay (266)
-[2020.11.05-02.04.36:455][117]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
-[2020.11.05-02.04.36:455][117]LogModuleManager: Shutting down and abandoning module VREditor (262)
-[2020.11.05-02.04.36:456][117]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
-[2020.11.05-02.04.36:456][117]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
-[2020.11.05-02.04.36:456][117]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
-[2020.11.05-02.04.36:458][117]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
-[2020.11.05-02.04.36:459][117]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
-[2020.11.05-02.04.36:460][117]LogModuleManager: Shutting down and abandoning module UMG (250)
-[2020.11.05-02.04.36:460][117]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
-[2020.11.05-02.04.36:463][117]LogModuleManager: Shutting down and abandoning module MessageLog (247)
-[2020.11.05-02.04.36:464][117]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
-[2020.11.05-02.04.36:467][117]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
-[2020.11.05-02.04.36:468][117]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
-[2020.11.05-02.04.36:471][117]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
-[2020.11.05-02.04.36:473][117]LogModuleManager: Shutting down and abandoning module Slate (234)
-[2020.11.05-02.04.36:473][117]LogModuleManager: Shutting down and abandoning module SlateCore (232)
-[2020.11.05-02.04.36:473][117]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
-[2020.11.05-02.04.36:473][117]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
-[2020.11.05-02.04.36:474][117]LogModuleManager: Shutting down and abandoning module MRMesh (226)
-[2020.11.05-02.04.36:474][117]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
-[2020.11.05-02.04.36:474][117]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
-[2020.11.05-02.04.36:474][117]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
-[2020.11.05-02.04.36:475][117]LogModuleManager: Shutting down and abandoning module Networking (218)
-[2020.11.05-02.04.36:475][117]LogModuleManager: Shutting down and abandoning module Core (216)
-[2020.11.05-02.04.36:475][117]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
-[2020.11.05-02.04.36:478][117]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
-[2020.11.05-02.04.36:481][117]LogModuleManager: Shutting down and abandoning module Sequencer (211)
-[2020.11.05-02.04.36:484][117]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
-[2020.11.05-02.04.36:488][117]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
-[2020.11.05-02.04.36:488][117]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
-[2020.11.05-02.04.36:489][117]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
-[2020.11.05-02.04.36:490][117]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
-[2020.11.05-02.04.36:490][117]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
-[2020.11.05-02.04.36:491][117]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
-[2020.11.05-02.04.36:491][117]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
-[2020.11.05-02.04.36:491][117]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
-[2020.11.05-02.04.36:495][117]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
-[2020.11.05-02.04.36:495][117]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
-[2020.11.05-02.04.36:496][117]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
-[2020.11.05-02.04.36:496][117]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
-[2020.11.05-02.04.36:496][117]LogModuleManager: Shutting down and abandoning module XGEController (180)
-[2020.11.05-02.04.36:497][117]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
-[2020.11.05-02.04.36:498][117]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
-[2020.11.05-02.04.36:499][117]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
-[2020.11.05-02.04.36:499][117]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
-[2020.11.05-02.04.36:500][117]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
-[2020.11.05-02.04.36:500][117]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
-[2020.11.05-02.04.36:501][117]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
-[2020.11.05-02.04.36:501][117]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
-[2020.11.05-02.04.36:502][117]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
-[2020.11.05-02.04.36:502][117]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
-[2020.11.05-02.04.36:504][117]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
-[2020.11.05-02.04.36:504][117]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
-[2020.11.05-02.04.36:504][117]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
-[2020.11.05-02.04.36:504][117]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
-[2020.11.05-02.04.36:505][117]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
-[2020.11.05-02.04.36:505][117]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
-[2020.11.05-02.04.36:506][117]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
-[2020.11.05-02.04.36:506][117]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
-[2020.11.05-02.04.36:506][117]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
-[2020.11.05-02.04.36:506][117]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
-[2020.11.05-02.04.36:506][117]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
-[2020.11.05-02.04.36:530][117]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
-[2020.11.05-02.04.36:542][117]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
-[2020.11.05-02.04.36:542][117]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
-[2020.11.05-02.04.36:543][117]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
-[2020.11.05-02.04.36:544][117]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
-[2020.11.05-02.04.36:544][117]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
-[2020.11.05-02.04.36:544][117]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
-[2020.11.05-02.04.36:545][117]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
-[2020.11.05-02.04.36:545][117]LogModuleManager: Shutting down and abandoning module Messaging (121)
-[2020.11.05-02.04.36:545][117]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
-[2020.11.05-02.04.36:555][117]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
-[2020.11.05-02.04.36:584][117]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
-[2020.11.05-02.04.36:585][117]LogModuleManager: Shutting down and abandoning module InputCore (112)
-[2020.11.05-02.04.36:585][117]LogModuleManager: Shutting down and abandoning module Settings (110)
-[2020.11.05-02.04.36:586][117]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
-[2020.11.05-02.04.36:587][117]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
-[2020.11.05-02.04.36:587][117]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
-[2020.11.05-02.04.36:588][117]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
-[2020.11.05-02.04.36:588][117]LogModuleManager: Shutting down and abandoning module Chaos (100)
-[2020.11.05-02.04.36:589][117]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
-[2020.11.05-02.04.36:589][117]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
-[2020.11.05-02.04.36:589][117]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
-[2020.11.05-02.04.36:589][117]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
-[2020.11.05-02.04.36:589][117]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
-[2020.11.05-02.04.36:589][117]LogModuleManager: Shutting down and abandoning module SteamVR (88)
-[2020.11.05-02.04.36:589][117]LogHMD: Freeing OpenVRDLLHandle.
-[2020.11.05-02.04.36:589][117]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
-[2020.11.05-02.04.36:589][117]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
-[2020.11.05-02.04.36:589][117]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
-[2020.11.05-02.04.36:589][117]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
-[2020.11.05-02.04.36:589][117]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
-[2020.11.05-02.04.36:591][117]LogModuleManager: Shutting down and abandoning module XMPP (71)
-[2020.11.05-02.04.36:592][117]LogModuleManager: Shutting down and abandoning module WebSockets (70)
-[2020.11.05-02.04.36:601][117]LogModuleManager: Shutting down and abandoning module HTTP (67)
-[2020.11.05-02.04.36:601][117]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2020.11.05-02.04.36:601][117]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB2F97633-44F9-069D-F0B4-78BFF8E5A182%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=3c6c184f432846c5c842328b40579f53%7C5058352943ec4bb5b022fe48e68df1c9%7Cba515a2b-f4de-4947-8c01-3c78db60e1e1&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
-[2020.11.05-02.04.36:628][117]LogModuleManager: Shutting down and abandoning module SSL (66)
-[2020.11.05-02.04.36:632][117]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
-[2020.11.05-02.04.36:636][117]LogModuleManager: Shutting down and abandoning module Media (61)
-[2020.11.05-02.04.36:638][117]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
-[2020.11.05-02.04.36:639][117]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
-[2020.11.05-02.04.36:639][117]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
-[2020.11.05-02.04.36:639][117]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
-[2020.11.05-02.04.36:639][117]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
-[2020.11.05-02.04.36:640][117]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
-[2020.11.05-02.04.36:640][117]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
-[2020.11.05-02.04.36:640][117]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
-[2020.11.05-02.04.36:640][117]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
-[2020.11.05-02.04.36:640][117]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2020.11.05-02.04.36:640][117]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2020.11.05-02.04.36:640][117]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2020.11.05-02.04.36:643][117]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2020.11.05-02.04.36:645][117]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2020.11.05-02.04.36:645][117]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2020.11.05-02.04.36:645][117]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2020.11.05-02.04.36:645][117]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2020.11.05-02.04.36:649][117]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2020.11.05-02.04.36:650][117]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2020.11.05-02.04.36:650][117]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2020.11.05-02.04.36:650][117]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2020.11.05-02.04.36:650][117]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2020.11.05-02.04.36:651][117]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2020.11.05-02.04.36:651][117]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2020.11.05-02.04.36:651][117]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2020.11.05-02.04.36:651][117]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2020.11.05-02.04.36:651][117]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2020.11.05-02.04.36:652][117]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2020.11.05-02.04.36:652][117]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2020.11.05-02.04.36:700][117]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
-[2020.11.05-02.04.36:702][117]LogD3D11RHI: Shutdown
-[2020.11.05-02.04.36:702][117]LogD3D11RHI: CleanupD3DDevice
-[2020.11.05-02.04.36:762][117]LogExit: Exiting.
-[2020.11.05-02.04.36:809][117]Log file closed, 11/04/20 21:04:36
+[2020.11.05-16.53.41:547][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.11.05-16.53.41:547][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
+[2020.11.05-16.53.41:548][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.11.05-16.53.41:548][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.11.05-16.53.41:549][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.11.05-16.53.41:549][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.11.05-16.53.41:549][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.11.05-16.53.41:549][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.11.05-16.53.41:549][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.11.05-16.53.41:549][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.11.05-16.53.41:549][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.11.05-16.53.41:549][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.11.05-16.53.41:549][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.11.05-16.53.41:549][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.11.05-16.53.41:549][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.11.05-16.53.41:549][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
+[2020.11.05-16.53.41:549][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
+[2020.11.05-16.53.41:554][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.05-16.53.41:554][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.05-16.53.41:555][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.05-16.53.41:556][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.05-16.53.41:556][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.11.05-16.53.41:557][  0]LogHAL: Display: Platform has ~ 8 GB [8419069952 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.11.05-16.53.41:557][  0]LogInit: Going up to parent DeviceProfile []
+[2020.11.05-16.53.41:557][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.11.05-16.53.41:557][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.11.05-16.53.41:558][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Scalability.ini]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.11.05-16.53.41:559][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.11.05-16.53.41:560][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.11.05-16.53.41:560][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.11.05-16.53.41:560][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.11.05-16.53.41:561][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.11.05-16.53.41:561][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.11.05-16.53.41:561][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.11.05-16.53.41:561][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Config/Windows/Engine.ini]
+[2020.11.05-16.53.41:563][  0]LogInit: Computer: LAPTOP-L4CND8VI
+[2020.11.05-16.53.41:563][  0]LogInit: User: Raquel
+[2020.11.05-16.53.41:563][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.11.05-16.53.41:563][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.11.05-16.53.41:563][  0]LogMemory: Memory total: Physical=7.8GB (8GB approx)
+[2020.11.05-16.53.41:564][  0]LogMemory: Platform Memory Stats for Windows
+[2020.11.05-16.53.41:564][  0]LogMemory: Process Physical Memory: 113.93 MB used, 113.93 MB peak
+[2020.11.05-16.53.41:564][  0]LogMemory: Process Virtual Memory: 96.19 MB used, 96.19 MB peak
+[2020.11.05-16.53.41:564][  0]LogMemory: Physical Memory: 7495.17 MB used,  533.88 MB free, 8029.05 MB total
+[2020.11.05-16.53.41:564][  0]LogMemory: Virtual Memory: 5143.11 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.11.05-16.53.41:569][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.11.05-16.53.41:757][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.11.05-16.53.41:760][  0]LogInit: Using OS detected language (en-US).
+[2020.11.05-16.53.41:761][  0]LogInit: Using OS detected locale (en-CA).
+[2020.11.05-16.53.41:777][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.11.05-16.53.42:176][  0]LogInit: Setting process to per monitor DPI aware
+[2020.11.05-16.53.42:268][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.11.05-16.53.42:268][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.11.05-16.53.42:664][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.05-16.53.42:664][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.11.05-16.53.42:664][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.11.05-16.53.42:664][  0]LogD3D11RHI: D3D11 adapters:
+[2020.11.05-16.53.42:818][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650' (Feature Level 11_0)
+[2020.11.05-16.53.42:818][  0]LogD3D11RHI:       3962/0/4014 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.11.05-16.53.42:837][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2020.11.05-16.53.42:837][  0]LogD3D11RHI:       128/0/4014 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.11.05-16.53.42:845][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.11.05-16.53.42:845][  0]LogD3D11RHI:       0/0/4014 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.11.05-16.53.42:845][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.11.05-16.53.42:909][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.11.05-16.53.42:910][  0]LogD3D11RHI:     GPU DeviceId: 0x1f91 (for the marketing name, search the web for "GPU Device Id")
+[2020.11.05-16.53.42:910][  0]LogWindows: EnumDisplayDevices:
+[2020.11.05-16.53.42:910][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2020.11.05-16.53.42:910][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.11.05-16.53.42:910][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2020.11.05-16.53.42:911][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1650' (P:0 D:0)
+[2020.11.05-16.53.42:911][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2020.11.05-16.53.42:911][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650
+[2020.11.05-16.53.42:911][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
+[2020.11.05-16.53.42:911][  0]LogD3D11RHI:      Driver Date: 7-5-2020
+[2020.11.05-16.53.42:911][  0]LogRHI: Texture pool is 2773 MB (70% of 3962 MB)
+[2020.11.05-16.53.42:976][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.11.05-16.53.42:978][  0]LogD3D11RHI: Async texture creation enabled
+[2020.11.05-16.53.42:978][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.11.05-16.53.43:013][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.11.05-16.53.43:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.11.05-16.53.43:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.11.05-16.53.43:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.11.05-16.53.43:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.11.05-16.53.43:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.11.05-16.53.43:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.11.05-16.53.43:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.11.05-16.53.43:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.11.05-16.53.43:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.11.05-16.53.43:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.11.05-16.53.43:490][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.11.05-16.53.43:521][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.11.05-16.53.43:521][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.11.05-16.53.43:537][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.11.05-16.53.43:550][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.11.05-16.53.43:562][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.11.05-16.53.43:572][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.11.05-16.53.43:585][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.11.05-16.53.43:597][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.11.05-16.53.43:609][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.11.05-16.53.43:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.11.05-16.53.43:642][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.11.05-16.53.43:659][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.11.05-16.53.43:659][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.11.05-16.53.43:671][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.11.05-16.53.43:683][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.11.05-16.53.43:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.11.05-16.53.43:710][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.11.05-16.53.43:711][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.11.05-16.53.43:724][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.11.05-16.53.43:856][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Intermediate/Shaders/WorkingDirectory/20332/).
+[2020.11.05-16.53.43:857][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Raquel/AppData/Local/Temp/UnrealShaderWorkingDir/A24A7DFC41334CB11E93AFAFB619D7C0/'.
+[2020.11.05-16.53.43:858][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.11.05-16.53.43:858][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.11.05-16.53.43:858][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.11.05-16.53.44:947][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.11.05-16.53.45:162][  0]LogDerivedDataCache: Loaded boot cache 0.21s 91MB C:/Users/Raquel/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.05-16.53.45:163][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Raquel/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.11.05-16.53.45:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.11.05-16.53.45:164][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.11.05-16.53.45:164][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.05-16.53.45:164][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.11.05-16.53.45:183][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.11.05-16.53.45:183][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.11.05-16.53.45:183][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.11.05-16.53.45:186][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Raquel/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.11.05-16.53.45:186][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.11.05-16.53.45:186][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.11.05-16.53.45:271][  0]LogSlate: Using FreeType 2.10.0
+[2020.11.05-16.53.45:274][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.11.05-16.53.45:344][  0]LogAssetRegistry: FAssetRegistry took 0.0065 seconds to start up
+[2020.11.05-16.53.46:071][  0]LogInit: Selected Device Profile: [Windows]
+[2020.11.05-16.53.46:398][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.11.05-16.53.46:398][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.11.05-16.53.46:398][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.11.05-16.53.46:398][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.11.05-16.53.46:399][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.11.05-16.53.46:501][  0]LogNetVersion: GAME2020_Final 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3070344347)
+[2020.11.05-16.53.47:827][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000024D56F029C0), frame # 0
+[2020.11.05-16.53.47:827][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D56D991C0), frame # 0
+[2020.11.05-16.53.47:838][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D56DD9C00), frame # 0
+[2020.11.05-16.53.48:023][  0]LogPackageLocalizationCache: Processed 20 localized package path(s) for 1 prioritized culture(s) in 0.104906 seconds
+[2020.11.05-16.53.48:033][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2020.11.05-16.53.48:033][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2020.11.05-16.53.48:033][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.11.05-16.53.49:287][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.11.05-16.53.49:294][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.11.05-16.53.49:409][  0]LogLinker: Warning: Failed to load '/Game/VehicleCPP/VehicleOverview': Can't find file.
+[2020.11.05-16.53.49:411][  0]LogLinker: Warning: Failed to load '/Game/VehicleCPP/VehicleOverview': Can't find file.
+[2020.11.05-16.53.49:411][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/VehicleCPP/VehicleOverview.VehicleOverview_C'
+[2020.11.05-16.53.49:494][  0]SourceControl: Source control is disabled
+[2020.11.05-16.53.49:496][  0]SourceControl: Source control is disabled
+[2020.11.05-16.53.49:510][  0]SourceControl: Source control is disabled
+[2020.11.05-16.53.49:520][  0]SourceControl: Source control is disabled
+[2020.11.05-16.53.49:535][  0]SourceControl: Source control is disabled
+[2020.11.05-16.53.50:359][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.11.05-16.53.50:392][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.05-16.53.50:392][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.11.05-16.53.50:487][  0]LogOcInput: OculusInput pre-init called
+[2020.11.05-16.53.50:506][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.11.05-16.53.50:506][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.11.05-16.53.50:837][  0]LogEngine: Initializing Engine...
+[2020.11.05-16.53.50:849][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.11.05-16.53.50:850][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.11.05-16.53.50:856][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.003 s
+[2020.11.05-16.53.51:106][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.11.05-16.53.51:216][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.11.05-16.53.51:216][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D5ECB6200), frame # 0
+[2020.11.05-16.53.51:217][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D5ED04900), frame # 0
+[2020.11.05-16.53.51:247][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.05-16.53.51:247][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.05-16.53.51:247][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.05-16.53.51:247][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.05-16.53.51:247][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.05-16.53.51:247][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.05-16.53.51:247][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.05-16.53.51:247][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.05-16.53.51:251][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.05-16.53.51:251][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.05-16.53.51:279][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.05-16.53.51:279][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.11.05-16.53.51:372][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.05-16.53.51:374][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.05-16.53.51:381][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.05-16.53.51:382][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.05-16.53.51:386][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.05-16.53.51:398][  0]LogInit: FAudioDevice initialized.
+[2020.11.05-16.53.51:402][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.11.05-16.53.51:542][  0]LogDerivedDataCache: Saved boot cache 0.14s 91MB C:/Users/Raquel/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.11.05-16.53.51:555][  0]LogInit: Texture streaming: Enabled
+[2020.11.05-16.53.51:607][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.11.05-16.53.51:607][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.11.05-16.53.51:611][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.11.05-16.53.51:758][  0]LogInit: Transaction tracking system initialized
+[2020.11.05-16.53.51:819][  0]BlueprintLog: New page: Editor Load
+[2020.11.05-16.53.52:063][  0]LocalizationService: Localization service is disabled
+[2020.11.05-16.53.52:381][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.11.05-16.53.52:381][  0]LogCook: Display: Mobile HDR setting 1
+[2020.11.05-16.53.52:676][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/' took 0.01s
+[2020.11.05-16.53.53:025][  0]SourceControl: Source control is disabled
+[2020.11.05-16.53.53:025][  0]LogUnrealEdMisc: Loading editor; pre map load, took 16.181
+[2020.11.05-16.53.53:028][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StarterContent/Maps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.11.05-16.53.53:032][  0]LightingResults: New page: Lighting Build
+[2020.11.05-16.53.53:039][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-16.53.53:040][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-16.53.53:041][  0]MapCheck: New page: Map Check
+[2020.11.05-16.53.53:041][  0]LightingResults: New page: Lighting Build
+[2020.11.05-16.53.53:062][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D5ECB6200), frame # 0
+[2020.11.05-16.53.53:062][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D5ED04900), frame # 0
+[2020.11.05-16.53.53:064][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2020.11.05-16.53.54:408][  0]LogAIModule: Creating AISystem for world Map1
+[2020.11.05-16.53.54:409][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D47DD3E00), frame # 0
+[2020.11.05-16.53.54:409][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D4CF9A980), frame # 0
+[2020.11.05-16.53.55:504][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.11.05-16.53.55:609][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2020.11.05-16.53.55:611][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.11.05-16.53.55:612][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.698ms to complete.
+[2020.11.05-16.53.55:612][  0]LogFileHelpers: Loading map 'Map1' took 2.586
+[2020.11.05-16.53.55:631][  0]LogUnrealEdMisc: Total Editor Startup Time, took 18.786
+[2020.11.05-16.53.55:806][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-16.53.55:814][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-16.53.55:822][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-16.53.55:830][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-16.53.55:847][  0]LogCollectionManager: Loaded 0 collections in 0.003566 seconds
+[2020.11.05-16.53.55:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Collections/' took 0.00s
+[2020.11.05-16.53.55:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/Developers/Raquel/Collections/' took 0.00s
+[2020.11.05-16.53.55:893][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/Collections/' took 0.00s
+[2020.11.05-16.53.55:893][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 3433 classes and 824 folders.
+[2020.11.05-16.53.55:911][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.05-16.53.56:056][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.11.05-16.53.56:060][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2020.11.05-16.53.56:384][  0]LogSlate: Took 0.000777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.11.05-16.53.56:387][  0]LogSlate: Took 0.000536 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.11.05-16.53.56:396][  0]LogSlate: Took 0.000801 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.11.05-16.53.56:551][  0]LogRenderer: Reallocating scene render targets to support 964x440 Format 10 NumSamples 1 (Frame:1).
+[2020.11.05-16.53.56:782][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.11.05-16.53.56:782][  0]LogLoad: (Engine Initialization) Total time: 19.94 seconds
+[2020.11.05-16.53.56:782][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.11.05-16.53.57:217][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.11.05-16.53.57:268][  0]LogSlate: Took 0.000690 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.05-16.53.57:299][  1]LogAssetRegistry: Asset discovery search completed in 11.9566 seconds
+[2020.11.05-16.53.57:309][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000255 seconds (updated 0 objects)
+[2020.11.05-16.53.59:092][ 94]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.05-16.53.59:111][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.05-16.53.59:115][ 94]PIE: New page: PIE session: Map1 (Nov. 5, 2020, 6:53:59 a.m.)
+[2020.11.05-16.53.59:118][ 94]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.11.05-16.53.59:121][ 94]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.11.05-16.53.59:121][ 94]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Map1
+[2020.11.05-16.53.59:221][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.100306s)
+[2020.11.05-16.53.59:223][ 94]LogAIModule: Creating AISystem for world Map1
+[2020.11.05-16.53.59:223][ 94]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D0273E200), frame # 94
+[2020.11.05-16.53.59:223][ 94]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D4DBCFD80), frame # 94
+[2020.11.05-16.53.59:223][ 94]LogPlayLevel: PIE: World Init took: (0.001328s)
+[2020.11.05-16.53.59:223][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Map1.Map1 to /Game/StarterContent/Maps/UEDPIE_0_Map1.Map1 (0.101927s)
+[2020.11.05-16.53.59:232][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.11.05-16.53.59:237][ 94]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.05-16.53.59:237][ 94]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.05-16.53.59:237][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.05-16.53.59:237][ 94]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.05-16.53.59:237][ 94]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.05-16.53.59:237][ 94]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.05-16.53.59:237][ 94]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.05-16.53.59:237][ 94]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.05-16.53.59:238][ 94]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.05-16.53.59:238][ 94]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.05-16.53.59:241][ 94]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.05-16.53.59:241][ 94]LogAudioMixer: Display: 1: FrontRight
+[2020.11.05-16.53.59:258][ 94]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.05-16.53.59:258][ 94]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.05-16.53.59:258][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.05-16.53.59:258][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.05-16.53.59:258][ 94]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.05-16.53.59:272][ 94]LogInit: FAudioDevice initialized.
+[2020.11.05-16.53.59:278][ 94]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.11.05-16.53.59:297][ 94]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2020.11.05-11.53.59
+[2020.11.05-16.53.59:298][ 94]LogWorld: Bringing up level for play took: 0.018229
+[2020.11.05-16.53.59:298][ 94]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.11.05-16.53.59:303][ 94]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.11.05-16.53.59:308][ 94]PIE: Server logged in
+[2020.11.05-16.53.59:309][ 94]PIE: Play in editor total start time 0.199 seconds.
+[2020.11.05-16.54.39:478][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-16.54.39:478][335]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Map1
+[2020.11.05-16.54.39:484][335]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-16.54.39:489][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-16.54.39:500][335]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.05-16.54.39:504][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-16.54.39:545][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-16.54.39:582][335]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D0273E200), frame # 2335
+[2020.11.05-16.54.39:582][335]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D4DBCFD80), frame # 2335
+[2020.11.05-16.54.39:586][335]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2020.11.05-16.54.39:636][336]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.11.05-16.54.41:597][453]Cmd: SELECT NONE
+[2020.11.05-16.54.42:549][508]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.05-16.54.42:570][508]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.05-16.54.42:571][508]PIE: New page: PIE session: Map1 (Nov. 5, 2020, 6:54:42 a.m.)
+[2020.11.05-16.54.42:571][508]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Map1
+[2020.11.05-16.54.42:670][508]LogPlayLevel: PIE: StaticDuplicateObject took: (0.099281s)
+[2020.11.05-16.54.42:671][508]LogAIModule: Creating AISystem for world Map1
+[2020.11.05-16.54.42:671][508]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D88C72800), frame # 2508
+[2020.11.05-16.54.42:672][508]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D502C7240), frame # 2508
+[2020.11.05-16.54.42:672][508]LogPlayLevel: PIE: World Init took: (0.001781s)
+[2020.11.05-16.54.42:672][508]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Map1.Map1 to /Game/StarterContent/Maps/UEDPIE_0_Map1.Map1 (0.101276s)
+[2020.11.05-16.54.42:682][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2020.11.05-16.54.42:684][508]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.05-16.54.42:684][508]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.05-16.54.42:684][508]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.05-16.54.42:684][508]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.05-16.54.42:684][508]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.05-16.54.42:684][508]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.05-16.54.42:684][508]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.05-16.54.42:684][508]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.05-16.54.42:684][508]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.05-16.54.42:684][508]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.05-16.54.42:688][508]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.05-16.54.42:688][508]LogAudioMixer: Display: 1: FrontRight
+[2020.11.05-16.54.42:704][508]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.05-16.54.42:704][508]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.05-16.54.42:704][508]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.05-16.54.42:704][508]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.05-16.54.42:704][508]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.05-16.54.42:705][508]LogInit: FAudioDevice initialized.
+[2020.11.05-16.54.42:722][508]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.11.05-16.54.42:742][508]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2020.11.05-11.54.42
+[2020.11.05-16.54.42:742][508]LogWorld: Bringing up level for play took: 0.019277
+[2020.11.05-16.54.42:743][508]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2020.11.05-16.54.42:749][508]PIE: Server logged in
+[2020.11.05-16.54.42:750][508]PIE: Play in editor total start time 0.18 seconds.
+[2020.11.05-16.54.42:979][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-16.54.42:979][518]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Map1
+[2020.11.05-16.54.42:979][518]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-16.54.42:984][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-16.54.42:996][518]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.05-16.54.43:000][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-16.54.43:013][518]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-16.54.43:033][518]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D502C7240), frame # 2518
+[2020.11.05-16.54.43:033][518]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D88C72800), frame # 2518
+[2020.11.05-16.54.43:036][518]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2020.11.05-16.54.43:065][519]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2020.11.05-17.04.28:859][434]LogSlate: Took 0.000335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.11.05-17.45.06:714][313]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.05-17.45.06:744][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.05-17.45.06:747][313]PIE: New page: PIE session: Map1 (Nov. 5, 2020, 7:45:06 a.m.)
+[2020.11.05-17.45.06:748][313]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Map1
+[2020.11.05-17.45.06:911][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.161434s)
+[2020.11.05-17.45.06:918][313]LogAIModule: Creating AISystem for world Map1
+[2020.11.05-17.45.06:920][313]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D0273F600), frame # 36313
+[2020.11.05-17.45.06:920][313]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D026D1300), frame # 36313
+[2020.11.05-17.45.06:923][313]LogPlayLevel: PIE: World Init took: (0.012080s)
+[2020.11.05-17.45.06:923][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Map1.Map1 to /Game/StarterContent/Maps/UEDPIE_0_Map1.Map1 (0.174228s)
+[2020.11.05-17.45.06:948][313]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2020.11.05-17.45.06:970][313]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.05-17.45.06:970][313]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.05-17.45.06:970][313]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.05-17.45.06:970][313]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.05-17.45.06:970][313]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.05-17.45.06:970][313]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.05-17.45.06:970][313]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.05-17.45.06:970][313]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.05-17.45.06:971][313]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.05-17.45.06:971][313]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.05-17.45.06:976][313]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.05-17.45.06:976][313]LogAudioMixer: Display: 1: FrontRight
+[2020.11.05-17.45.06:992][313]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.05-17.45.06:994][313]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.05-17.45.06:994][313]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.05-17.45.06:994][313]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.05-17.45.06:997][313]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.05-17.45.07:007][313]LogInit: FAudioDevice initialized.
+[2020.11.05-17.45.07:028][313]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.11.05-17.45.07:057][313]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2020.11.05-12.45.07
+[2020.11.05-17.45.07:058][313]LogWorld: Bringing up level for play took: 0.027240
+[2020.11.05-17.45.07:059][313]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2020.11.05-17.45.07:082][313]PIE: Server logged in
+[2020.11.05-17.45.07:083][313]PIE: Play in editor total start time 0.341 seconds.
+[2020.11.05-17.45.24:242][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-17.45.24:242][131]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Map1
+[2020.11.05-17.45.24:243][131]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-17.45.24:246][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-17.45.24:252][131]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.05-17.45.24:254][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-17.45.24:265][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-17.45.24:285][131]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D026D1300), frame # 38131
+[2020.11.05-17.45.24:285][131]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D0273F600), frame # 38131
+[2020.11.05-17.45.24:288][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2020.11.05-17.45.24:323][132]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2020.11.05-17.45.26:748][259]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.05-17.45.26:763][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.05-17.45.26:764][259]PIE: New page: PIE session: Map1 (Nov. 5, 2020, 7:45:26 a.m.)
+[2020.11.05-17.45.26:764][259]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Map1
+[2020.11.05-17.45.26:848][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084305s)
+[2020.11.05-17.45.26:849][259]LogAIModule: Creating AISystem for world Map1
+[2020.11.05-17.45.26:849][259]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D02F2EC00), frame # 38259
+[2020.11.05-17.45.26:849][259]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D69833880), frame # 38259
+[2020.11.05-17.45.26:849][259]LogPlayLevel: PIE: World Init took: (0.001091s)
+[2020.11.05-17.45.26:849][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Map1.Map1 to /Game/StarterContent/Maps/UEDPIE_0_Map1.Map1 (0.085568s)
+[2020.11.05-17.45.26:858][259]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2020.11.05-17.45.26:860][259]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.05-17.45.26:860][259]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.05-17.45.26:860][259]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.05-17.45.26:860][259]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.05-17.45.26:860][259]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.05-17.45.26:860][259]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.05-17.45.26:860][259]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.05-17.45.26:860][259]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.05-17.45.26:861][259]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.05-17.45.26:861][259]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.05-17.45.26:863][259]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.05-17.45.26:863][259]LogAudioMixer: Display: 1: FrontRight
+[2020.11.05-17.45.26:877][259]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.05-17.45.26:877][259]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.05-17.45.26:877][259]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.05-17.45.26:877][259]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.05-17.45.26:877][259]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.05-17.45.26:889][259]LogInit: FAudioDevice initialized.
+[2020.11.05-17.45.26:895][259]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.11.05-17.45.26:910][259]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 0) at 2020.11.05-12.45.26
+[2020.11.05-17.45.26:911][259]LogWorld: Bringing up level for play took: 0.014612
+[2020.11.05-17.45.26:911][259]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.11.05-17.45.26:914][259]PIE: Server logged in
+[2020.11.05-17.45.26:915][259]PIE: Play in editor total start time 0.152 seconds.
+[2020.11.05-17.45.27:102][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-17.45.27:102][271]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Map1
+[2020.11.05-17.45.27:103][271]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-17.45.27:106][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-17.45.27:113][271]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.05-17.45.27:115][271]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-17.45.27:127][271]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-17.45.27:143][271]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D69833880), frame # 38271
+[2020.11.05-17.45.27:143][271]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D02F2EC00), frame # 38271
+[2020.11.05-17.45.27:145][271]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2020.11.05-17.45.27:180][272]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.11.05-17.53.30:472][483]LogSlate: Window 'Project Settings' being destroyed
+[2020.11.05-17.53.30:476][483]LogSlate: Window 'Project Settings' being destroyed
+[2020.11.05-17.53.43:591][604]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.11.05-17.53.43:592][604]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.11.05-17.53.43:670][604]LogSlate: Took 0.015055 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.11.05-17.54.04:187][765]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.11.05-17.54.18:076][994]Running C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/GAME2020_Final.uproject" -game -rocket -progress
+[2020.11.05-17.54.18:583][994]Discovering modules, targets and source code for project...
+[2020.11.05-17.54.22:308][994]Binding IntelliSense data...
+[2020.11.05-17.54.31:589][994]Binding IntelliSense data... 100%
+[2020.11.05-17.54.31:589][994]Writing project files...
+[2020.11.05-17.54.38:139][994]Writing project files... 100%
+[2020.11.05-17.54.38:240][994]LogHotReload: Recompiling module GAME2020_Final...
+[2020.11.05-17.54.38:251][994]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2020.11.05-17.54.38:279][994]Candidate modules for hot reload:
+[2020.11.05-17.54.38:279][994]  GAME2020_Final
+[2020.11.05-17.54.38:280][994]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GAME2020_Final,1595 GAME2020_FinalEditor Win64 Development -Project="C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/GAME2020_Final.uproject" "C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/GAME2020_Final.uproject"  -IgnoreJunk]
+[2020.11.05-17.55.58:194][994]Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Raquel\Documents\GitHub\Sugar-Rush).
+Creating makefile for GAME2020_FinalEditor (no existing makefile)
+Parsing headers for GAME2020_FinalEditor
+  Running UnrealHeaderTool "C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\GAME2020_Final.uproject" "C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\GAME2020_FinalEditor\Development\GAME2020_FinalEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Raquel\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for GAME2020_FinalEditor in 9.3536764 seconds
+Building GAME2020_FinalEditor...
+Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 9 actions with 8 processes...
+  [1/9] Default.rc2
+  [2/9] SharedPCH.Engine.ShadowErrors.cpp
+  [3/9] GAME2020_Final.cpp
+  [4/9] GAME2020_Final.init.gen.cpp
+  [5/9] FPSProjectile.cpp
+  [6/9] FPSProjectile.gen.cpp
+  [7/9] UE4Editor-GAME2020_Final-1595.lib
+     Creating library C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\UE4Editor-GAME2020_Final-1595.lib and object C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\UE4Editor-GAME2020_Final-1595.exp
+  [8/9] UE4Editor-GAME2020_Final-1595.dll
+     Creating library C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\UE4Editor-GAME2020_Final-1595.suppressed.lib and object C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\UE4Editor-GAME2020_Final-1595.suppressed.exp
+  [9/9] GAME2020_FinalEditor.target
+Total time in Parallel executor: 43.68 seconds
+Total execution time: 79.78 seconds
+
+[2020.11.05-17.55.58:199][994]CompilerResultsLog: New page: Compilation - Nov. 5, 2020, 7:55:58 a.m.
+[2020.11.05-17.55.58:202][994]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Raquel\Documents\GitHub\Sugar-Rush).
+[2020.11.05-17.55.58:203][994]CompilerResultsLog: Creating makefile for GAME2020_FinalEditor (no existing makefile)
+[2020.11.05-17.55.58:203][994]CompilerResultsLog: Parsing headers for GAME2020_FinalEditor
+[2020.11.05-17.55.58:203][994]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\GAME2020_Final.uproject" "C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\GAME2020_FinalEditor\Development\GAME2020_FinalEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Raquel\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2020.11.05-17.55.58:203][994]CompilerResultsLog: Reflection code generated for GAME2020_FinalEditor in 9.3536764 seconds
+[2020.11.05-17.55.58:203][994]CompilerResultsLog: Building GAME2020_FinalEditor...
+[2020.11.05-17.55.58:203][994]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.11.05-17.55.58:203][994]CompilerResultsLog: Building 9 actions with 8 processes...
+[2020.11.05-17.55.58:203][994]CompilerResultsLog:   [1/9] Default.rc2
+[2020.11.05-17.55.58:203][994]CompilerResultsLog:   [2/9] SharedPCH.Engine.ShadowErrors.cpp
+[2020.11.05-17.55.58:203][994]CompilerResultsLog:   [3/9] GAME2020_Final.cpp
+[2020.11.05-17.55.58:203][994]CompilerResultsLog:   [4/9] GAME2020_Final.init.gen.cpp
+[2020.11.05-17.55.58:203][994]CompilerResultsLog:   [5/9] FPSProjectile.cpp
+[2020.11.05-17.55.58:203][994]CompilerResultsLog:   [6/9] FPSProjectile.gen.cpp
+[2020.11.05-17.55.58:203][994]CompilerResultsLog:   [7/9] UE4Editor-GAME2020_Final-1595.lib
+[2020.11.05-17.55.58:203][994]CompilerResultsLog:      Creating library C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\UE4Editor-GAME2020_Final-1595.lib and object C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\UE4Editor-GAME2020_Final-1595.exp
+[2020.11.05-17.55.58:204][994]CompilerResultsLog:   [8/9] UE4Editor-GAME2020_Final-1595.dll
+[2020.11.05-17.55.58:204][994]CompilerResultsLog:      Creating library C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\UE4Editor-GAME2020_Final-1595.suppressed.lib and object C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\UE4Editor-GAME2020_Final-1595.suppressed.exp
+[2020.11.05-17.55.58:204][994]CompilerResultsLog:   [9/9] GAME2020_FinalEditor.target
+[2020.11.05-17.55.58:204][994]CompilerResultsLog: Total time in Parallel executor: 43.68 seconds
+[2020.11.05-17.55.58:204][994]CompilerResultsLog: Total execution time: 79.78 seconds
+[2020.11.05-17.55.58:205][994]LogMainFrame: MainFrame: Module compiling took 79.953 seconds
+[2020.11.05-17.55.58:216][994]Reloading module GAME2020_Final after successful compile.
+[2020.11.05-17.55.58:385][994]LogClass: Could not find existing package /Script/GAME2020_Final for HotReload of class FPSProjectile, assuming a new package.
+[2020.11.05-17.55.58:409][994]LogContentBrowser: Native class hierarchy updated for 'GAME2020_Final' in 0.0108 seconds. Added 1 classes and 2 folders.
+[2020.11.05-17.55.58:474][994]LogUObjectHash: Compacting FUObjectHashTables data took   6.00ms
+[2020.11.05-17.55.58:602][994]LogContentBrowser: Native class hierarchy populated in 0.0746 seconds. Added 3434 classes and 826 folders.
+[2020.11.05-17.55.58:989][994]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.11.05-19.48.59:351][819]LogHttp: Warning: 0000024D50993900: request has been successfully processed. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B52DC315C-48C4-C97B-B56A-36AFE962CE94%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=3c6c184f432846c5c842328b40579f53%7C5058352943ec4bb5b022fe48e68df1c9%7Cba515a2b-f4de-4947-8c01-3c78db60e1e1&AppEnvironment=datacollector-source&UploadType=eteventstream, HTTP code: 502, content length: 122, actual payload size: 122, elapsed: 0.04s
+[2020.11.05-19.48.59:360][819]LogHttp: Warning: 0000024D50993900 Response Header Server: awselb/2.0
+[2020.11.05-19.48.59:360][819]LogHttp: Warning: 0000024D50993900 Response Header Date: Thu, 05 Nov 2020 19:48:59 GMT
+[2020.11.05-19.48.59:360][819]LogHttp: Warning: 0000024D50993900 Response Header Content-Type: text/html
+[2020.11.05-19.48.59:360][819]LogHttp: Warning: 0000024D50993900 Response Header Content-Length: 122
+[2020.11.05-19.48.59:360][819]LogHttp: Warning: 0000024D50993900 Response Header Connection: keep-alive

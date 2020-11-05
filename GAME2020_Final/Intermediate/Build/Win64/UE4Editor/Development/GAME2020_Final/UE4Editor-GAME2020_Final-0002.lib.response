@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-GAME2020_Final-0002.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\GAME2020_FinalEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\FPSProjectile.cpp.obj"
+"C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\GAME2020_Final.cpp.obj"
+"C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\FPSProjectile.gen.cpp.obj"
+"C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\GAME2020_Final.init.gen.cpp.obj"
+"C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\Default.rc2.res"
+/OUT:"C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\UE4Editor-GAME2020_Final-0002.lib"
+/INCLUDE:IMPLEMENT_MODULE_GAME2020_Final
