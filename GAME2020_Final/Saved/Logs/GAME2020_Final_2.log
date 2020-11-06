@@ -916,3 +916,1113 @@ Total execution time: 79.78 seconds
 [2020.11.05-19.48.59:360][819]LogHttp: Warning: 0000024D50993900 Response Header Content-Type: text/html
 [2020.11.05-19.48.59:360][819]LogHttp: Warning: 0000024D50993900 Response Header Content-Length: 122
 [2020.11.05-19.48.59:360][819]LogHttp: Warning: 0000024D50993900 Response Header Connection: keep-alive
+[2020.11.05-21.34.12:988][247]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/GAME2020_Final.FPSProjectile
+[2020.11.05-21.34.14:054][247]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Source/GAME2020_Final/FPSProjectile.h'
+[2020.11.05-21.34.23:644][391]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/GAME2020_Final.FPSProjectile
+[2020.11.05-21.38.24:940][209]Candidate modules for hot reload:
+[2020.11.05-21.38.24:941][209]  GAME2020_Final
+[2020.11.05-21.38.24:946][209]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GAME2020_Final,3648 GAME2020_FinalEditor Win64 Development -Project="C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/GAME2020_Final.uproject" "C:/Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/GAME2020_Final.uproject"  -IgnoreJunk]
+[2020.11.05-21.38.24:949][209]Warning: Starting HotReload took  0.1s.
+[2020.11.05-21.38.27:643][382]MapCheck: New page: Map Check
+[2020.11.05-21.38.27:756][382]Cmd: MAP REBUILD ALLVISIBLE
+[2020.11.05-21.38.27:779][382]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.11.05-21.38.28:884][382]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=false
+[2020.11.05-21.38.29:445][382]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2020.11.05-21.38.29:446][382]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2020.11.05-21.38.29:446][382]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2020.11.05-21.38.29:522][382]LogUObjectHash: Compacting FUObjectHashTables data took   5.92ms
+[2020.11.05-21.38.29:630][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:679][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:682][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:683][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:685][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:686][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:689][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.11.05-21.38.29:689][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2020.11.05-21.38.29:689][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.11.05-21.38.29:689][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.11.05-21.38.29:689][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:691][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:693][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:695][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:697][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:700][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:703][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:706][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:708][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:711][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:713][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:715][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:717][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:721][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:731][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:737][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:740][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:743][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:746][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:753][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:757][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:761][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:765][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:769][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:772][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:775][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:778][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.29:780][382]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2020.11.05-21.38.35:706][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 64
+[2020.11.05-21.38.35:706][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 63
+[2020.11.05-21.38.35:706][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 62
+[2020.11.05-21.38.35:706][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 61
+[2020.11.05-21.38.35:706][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 60
+[2020.11.05-21.38.35:706][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 59
+[2020.11.05-21.38.35:706][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 58
+[2020.11.05-21.38.35:706][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 57
+[2020.11.05-21.38.35:706][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 56
+[2020.11.05-21.38.35:706][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 55
+[2020.11.05-21.38.35:706][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 54
+[2020.11.05-21.38.35:706][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 53
+[2020.11.05-21.38.35:706][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 52
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 51
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 50
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 49
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 48
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 47
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 46
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 45
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 44
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 43
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 42
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 41
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 40
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 39
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 38
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 37
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 36
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 35
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 34
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 33
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 31
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 29
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 26
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 18
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 15
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 11
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.11.05-21.38.35:707][382]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.11.05-21.38.35:707][382]TextureStreamingBuild: Display: Compiling optional shaders took 6.117 seconds.
+[2020.11.05-21.38.35:911][382]LogLevel: Display: Export Material TexCoord Scales took 0.203 seconds.
+[2020.11.05-21.38.35:925][382]TextureStreamingBuild: Display: Build Texture Streaming took 0.014 seconds.
+[2020.11.05-21.38.35:939][382]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2020.11.05-21.38.35:972][382]LightingResults: New page: Lighting Build - Nov. 5, 2020, 11:38:35 a.m.
+[2020.11.05-21.38.36:431][382]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.11.05-21.38.36:634][382]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.11.05-21.38.36:655][382]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.11.05-21.38.37:697][382]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.11.05-21.38.37:697][382]LogSwarmInterface: [TryOpenConnection] Local Process ID is 20332
+[2020.11.05-21.38.40:348][382]LightingResults: Warning: No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2020.11.05-21.38.40:355][382]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.11.05-21.38.40:355][382]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.11.05-21.38.40:355][382]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.11.05-21.38.40:356][382]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.11.05-21.38.40:356][382]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.11.05-21.38.41:257][382]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2020.11.05-21.38.41:258][382]MapCheck: New page: Map1 - Nov. 5, 2020, 11:38:41 a.m.
+[2020.11.05-21.38.41:262][382]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2020.11.05-21.38.41:313][382]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 54.653ms to complete.
+[2020.11.05-21.38.41:324][382]LogEditorBuildUtils: Build time 0:13
+[2020.11.05-21.38.42:055][382]LogSlate: Took 0.013885 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.11.05-21.38.42:101][383]CompilerResultsLog: New page: Compilation - Nov. 5, 2020, 11:38:42 a.m.
+[2020.11.05-21.38.42:102][383]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Raquel\Documents\GitHub\Sugar-Rush).
+[2020.11.05-21.38.42:102][383]CompilerResultsLog: Building GAME2020_FinalEditor...
+[2020.11.05-21.38.42:102][383]CompilerResultsLog: Using Visual Studio 2019 14.26.28806 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.11.05-21.38.42:102][383]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.11.05-21.38.42:102][383]CompilerResultsLog:   [1/3] UE4Editor-GAME2020_Final-3648.lib
+[2020.11.05-21.38.42:102][383]CompilerResultsLog:      Creating library C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\UE4Editor-GAME2020_Final-3648.lib and object C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\UE4Editor-GAME2020_Final-3648.exp
+[2020.11.05-21.38.42:102][383]CompilerResultsLog:   [2/3] UE4Editor-GAME2020_Final-3648.dll
+[2020.11.05-21.38.42:102][383]CompilerResultsLog:      Creating library C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\UE4Editor-GAME2020_Final-3648.suppressed.lib and object C:\Users\Raquel\Documents\GitHub\Sugar-Rush\GAME2020_Final\Intermediate\Build\Win64\UE4Editor\Development\GAME2020_Final\UE4Editor-GAME2020_Final-3648.suppressed.exp
+[2020.11.05-21.38.42:102][383]CompilerResultsLog:   [3/3] GAME2020_FinalEditor.target
+[2020.11.05-21.38.42:102][383]CompilerResultsLog: Total time in Parallel executor: 1.97 seconds
+[2020.11.05-21.38.42:102][383]CompilerResultsLog: Total execution time: 3.41 seconds
+[2020.11.05-21.38.42:105][383]LogMainFrame: MainFrame: Module compiling took 17.201 seconds
+[2020.11.05-21.38.42:327][383]LogContentBrowser: Native class hierarchy populated in 0.1124 seconds. Added 3434 classes and 826 folders.
+[2020.11.05-21.38.42:332][383]Display: HotReload took 17.5s.
+[2020.11.05-21.38.42:384][383]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1360, compiling. 
+[2020.11.05-21.38.42:419][383]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.11.05-21.38.42:419][383]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.11.05-21.38.42:419][383]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1360, compiling. 
+[2020.11.05-21.38.42:479][384]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.11.05-21.38.42:479][384]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.11.05-21.38.43:893][391]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2020.11.05-21.38.43:901][391]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2020.11.05-21.38.43:901][391]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.11.05-21.38.43:901][391]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Polished, compiling. 
+[2020.11.05-21.38.43:950][392]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.11.05-21.38.43:950][392]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2020.11.05-21.38.43:950][392]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2020.11.05-21.38.43:958][392]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2020.11.05-21.38.44:047][393]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Floor, compiling. 
+[2020.11.05-21.38.44:060][393]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Floor, compiling. 
+[2020.11.05-21.38.44:447][394]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2020.11.05-21.38.44:475][394]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2020.11.05-21.38.44:671][395]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2020.11.05-21.38.44:671][395]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.11.05-21.38.44:671][395]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.11.05-21.38.44:696][395]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.11.05-21.38.44:718][395]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer icePop_Grape_MAT, compiling. 
+[2020.11.05-21.38.44:726][395]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer icePop_Grape_MAT, compiling. 
+[2020.11.05-21.38.44:785][396]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer iceCream_Strawberry_Vanilla_MAT, compiling. 
+[2020.11.05-21.38.44:794][396]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer iceCream_Strawberry_Vanilla_MAT, compiling. 
+[2020.11.05-21.38.44:819][397]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer pie_Blueberry_MAT, compiling. 
+[2020.11.05-21.38.44:825][397]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer pie_Blueberry_MAT, compiling. 
+[2020.11.05-21.38.44:854][398]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer donut_Pink_MAT, compiling. 
+[2020.11.05-21.38.44:863][398]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer donut_Pink_MAT, compiling. 
+[2020.11.05-21.38.44:890][399]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer donut_White_MAT, compiling. 
+[2020.11.05-21.38.44:898][399]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer donut_White_MAT, compiling. 
+[2020.11.05-21.38.44:976][400]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer donut_Chocolate_MAT, compiling. 
+[2020.11.05-21.38.45:008][400]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer donut_Chocolate_MAT, compiling. 
+[2020.11.05-21.38.45:127][401]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer donut_Glazed_MA, compiling. 
+[2020.11.05-21.38.45:159][401]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer donut_Glazed_MA, compiling. 
+[2020.11.05-21.38.45:308][402]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer donut_Chocolate_Chocolate_MAT, compiling. 
+[2020.11.05-21.38.45:319][402]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer donut_Chocolate_Chocolate_MAT, compiling. 
+[2020.11.05-21.38.45:365][403]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cupcake_redVelvet_MAT, compiling. 
+[2020.11.05-21.38.45:371][403]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cupcake_redVelvet_MAT, compiling. 
+[2020.11.05-21.38.45:382][404]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 36
+[2020.11.05-21.38.45:396][404]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cupcake_Chocolate_Vanilla_MAT, compiling. 
+[2020.11.05-21.38.45:401][404]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cupcake_Chocolate_Vanilla_MAT, compiling. 
+[2020.11.05-21.38.45:424][405]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer iceCream_Vanilla_Chocolate_MAT, compiling. 
+[2020.11.05-21.38.45:431][405]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer iceCream_Vanilla_Chocolate_MAT, compiling. 
+[2020.11.05-21.38.45:449][406]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer iceCream_Sorbet_MAT, compiling. 
+[2020.11.05-21.38.45:459][406]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer iceCream_Sorbet_MAT, compiling. 
+[2020.11.05-21.38.45:484][407]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer icePop_Lime_MAT, compiling. 
+[2020.11.05-21.38.45:490][407]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer icePop_Lime_MAT, compiling. 
+[2020.11.05-21.38.45:536][408]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_8, compiling. 
+[2020.11.05-21.38.45:553][408]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_8, compiling. 
+[2020.11.05-21.38.45:596][409]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_9, compiling. 
+[2020.11.05-21.38.45:611][409]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_9, compiling. 
+[2020.11.05-21.38.45:642][410]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_8, compiling. 
+[2020.11.05-21.38.45:674][411]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_9, compiling. 
+[2020.11.05-21.38.45:680][411]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cookie_Sprinkles_MAT, compiling. 
+[2020.11.05-21.38.45:688][411]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cookie_Sprinkles_MAT, compiling. 
+[2020.11.05-21.38.45:717][412]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cookie_Chocolate_Chocolate_MAT, compiling. 
+[2020.11.05-21.38.45:729][412]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cookie_Chocolate_Chocolate_MAT, compiling. 
+[2020.11.05-21.38.45:761][413]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cookie_ChocolateChip_MAT, compiling. 
+[2020.11.05-21.38.45:768][413]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer cookie_ChocolateChip_MAT, compiling. 
+[2020.11.05-21.38.45:796][414]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer icePop_Lemon_MAT, compiling. 
+[2020.11.05-21.38.45:802][414]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer icePop_Lemon_MAT, compiling. 
+[2020.11.05-21.38.45:834][415]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer icePop_RedWhiteBlue_MAT, compiling. 
+[2020.11.05-21.38.45:842][415]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer icePop_RedWhiteBlue_MAT, compiling. 
+[2020.11.05-21.38.45:869][416]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer icePop_Strawberry_MAT, compiling. 
+[2020.11.05-21.38.45:876][416]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer icePop_Strawberry_MAT, compiling. 
+[2020.11.05-21.38.45:903][417]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer icePop_Orange_MAT, compiling. 
+[2020.11.05-21.38.45:912][417]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer icePop_Orange_MAT, compiling. 
+[2020.11.05-21.38.45:937][418]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer pie_Cherry_MAT, compiling. 
+[2020.11.05-21.38.45:947][418]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer pie_Cherry_MAT, compiling. 
+[2020.11.05-21.38.45:978][419]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer brownie_MAT, compiling. 
+[2020.11.05-21.38.45:983][419]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer brownie_MAT, compiling. 
+[2020.11.05-21.38.46:011][420]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer bdayCake_Vanilla_Chocolate_MAT, compiling. 
+[2020.11.05-21.38.46:016][420]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer bdayCake_Vanilla_Chocolate_MAT, compiling. 
+[2020.11.05-21.38.46:029][421]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 88
+[2020.11.05-21.38.46:044][421]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer iceCream_Mint_Chocolate_MAT, compiling. 
+[2020.11.05-21.38.46:048][421]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer iceCream_Mint_Chocolate_MAT, compiling. 
+[2020.11.05-21.38.46:086][422]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2020.11.05-21.38.46:092][422]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 86
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 76
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 66
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 56
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 46
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 26
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 19
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 3
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2020.11.05-21.38.58:105][424]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2020.11.05-21.39.08:811][871]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.05-21.39.15:967][ 87]LogSlate: Window 'Message Log' being destroyed
+[2020.11.05-21.39.15:993][ 87]LogSlate: Window 'Message Log' being destroyed
+[2020.11.05-21.39.17:027][123]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2020.11.05-21.39.25:517][383]LogUObjectHash: Compacting FUObjectHashTables data took   9.84ms
+[2020.11.05-21.41.33:976][918]Job is a success!
+[2020.11.05-21.41.35:679][919]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.705s
+[2020.11.05-21.41.35:679][919]LogVolumetricLightmapImport:      Indirection Texture 32x32x32 = 0.1Mb
+[2020.11.05-21.41.35:683][919]LogVolumetricLightmapImport:      BrickData (all levels) 10.2Mb
+[2020.11.05-21.41.35:683][919]LogVolumetricLightmapImport:      Bricks at depth
+[2020.11.05-21.41.35:683][919]LogVolumetricLightmapImport:          0: 0.4% covering 100.0% of volume
+[2020.11.05-21.41.35:683][919]LogVolumetricLightmapImport:          1: 5.4% covering 23.2% of volume
+[2020.11.05-21.41.35:683][919]LogVolumetricLightmapImport:          2: 94.2% covering 6.3% of volume
+[2020.11.05-21.41.35:683][919]LogVolumetricLightmapImport:      Bricks in each level
+[2020.11.05-21.41.35:683][919]LogVolumetricLightmapImport:          Map1 			 2200 bricks 	 100.0% (Persistent Level)
+[2020.11.05-21.41.46:343][919]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.05-21.41.46:356][919]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: LQ_Lightmap_0_6 (DXT1, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: LQ_Lightmap_0_7 (DXT1, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: LQ_Lightmap_0_8 (DXT1, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: LQ_Lightmap_0_9 (DXT1, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: LQ_Lightmap_0_10 (DXT1, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: LQ_Lightmap_0_11 (DXT1, 1024X1024)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 512X512)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: LQ_Lightmap_0_12 (DXT1, 512X512)
+[2020.11.05-21.41.46:356][919]LogTexture: Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 512X512)
+[2020.11.05-21.41.46:357][919]LogTexture: Display: Building textures: LQ_Lightmap_0_13 (DXT1, 512X512)
+[2020.11.05-21.41.46:357][919]LogTexture: Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2020.11.05-21.41.46:357][919]LogTexture: Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2020.11.05-21.41.46:357][919]LogTexture: Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 128X128)
+[2020.11.05-21.41.46:357][919]LogTexture: Display: Building textures: LQ_Lightmap_0_15 (DXT1, 128X128)
+[2020.11.05-21.41.46:357][919]LogTexture: Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 64X64)
+[2020.11.05-21.41.46:357][919]LogTexture: Display: Building textures: LQ_Lightmap_0_16 (DXT1, 64X64)
+[2020.11.05-21.41.46:741][919]LogTexture: Display: Building textures: ShadowMapTexture2D_5 (G8, 512X64)
+[2020.11.05-21.41.46:741][919]LogTexture: Display: Building textures: ShadowMapTexture2D_6 (G8, 512X64)
+[2020.11.05-21.41.46:741][919]LogTexture: Display: Building textures: ShadowMapTexture2D_7 (G8, 128X64)
+[2020.11.05-21.41.46:741][919]LogTexture: Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2020.11.05-21.41.46:941][919]LogTexture: Display: Building textures: ShadowMapTexture2D_3 (G8, 1024X512)
+[2020.11.05-21.41.46:941][919]LogTexture: Display: Building textures: ShadowMapTexture2D_2 (G8, 1024X512)
+[2020.11.05-21.41.47:270][919]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X1024)
+[2020.11.05-21.41.47:270][919]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 1024X1024)
+[2020.11.05-21.41.47:270][919]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2020.11.05-21.41.47:270][919]Lightmass on LAPTOP-L4CND8VI: 2:20 min total, 2.93 sec importing, 2.84 sec setup, 26.7 sec photons, 1:47 min processing, 0 ms extra exporting [1010/1010 mappings]. Threads: 12:32 min total, 4:30 min processing.
+[2020.11.05-21.41.47:407][919]LogStaticLightingSystem: Map1_BuiltData storing lightmap data for 1010 meshes in 52 LightmapResourceClusters (19.4 Meshes per cluster).
+[2020.11.05-21.41.47:601][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/bdayCake_Vanilla_Chocolate_MAT.bdayCake_Vanilla_Chocolate_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.47:777][919]LogMaterial: Display: Missing cached shader map for material bdayCake_Vanilla_Chocolate_MAT, compiling. 
+[2020.11.05-21.41.47:939][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2020.11.05-21.41.47:939][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2020.11.05-21.41.47:939][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2020.11.05-21.41.47:939][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.11.05-21.41.47:944][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/brownie_MAT.brownie_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.47:949][919]LogMaterial: Display: Missing cached shader map for material brownie_MAT, compiling. 
+[2020.11.05-21.41.48:034][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/cookie_Chocolate_Chocolate_MAT.cookie_Chocolate_Chocolate_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.48:040][919]LogMaterial: Display: Missing cached shader map for material cookie_Chocolate_Chocolate_MAT, compiling. 
+[2020.11.05-21.41.48:133][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/cookie_ChocolateChip_MAT.cookie_ChocolateChip_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.48:136][919]LogMaterial: Display: Missing cached shader map for material cookie_ChocolateChip_MAT, compiling. 
+[2020.11.05-21.41.48:213][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/cookie_Sprinkles_MAT.cookie_Sprinkles_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.48:219][919]LogMaterial: Display: Missing cached shader map for material cookie_Sprinkles_MAT, compiling. 
+[2020.11.05-21.41.48:290][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/cupcake_Chocolate_Vanilla_MAT.cupcake_Chocolate_Vanilla_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.48:298][919]LogMaterial: Display: Missing cached shader map for material cupcake_Chocolate_Vanilla_MAT, compiling. 
+[2020.11.05-21.41.48:363][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/cupcake_redVelvet_MAT.cupcake_redVelvet_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.48:368][919]LogMaterial: Display: Missing cached shader map for material cupcake_redVelvet_MAT, compiling. 
+[2020.11.05-21.41.48:425][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/donut_White_MAT.donut_White_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.48:428][919]LogMaterial: Display: Missing cached shader map for material donut_White_MAT, compiling. 
+[2020.11.05-21.41.48:492][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/donut_Glazed_MA.donut_Glazed_MA needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.48:496][919]LogMaterial: Display: Missing cached shader map for material donut_Glazed_MA, compiling. 
+[2020.11.05-21.41.48:575][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/donut_Chocolate_MAT.donut_Chocolate_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.48:578][919]LogMaterial: Display: Missing cached shader map for material donut_Chocolate_MAT, compiling. 
+[2020.11.05-21.41.48:667][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/donut_Pink_MAT.donut_Pink_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.48:672][919]LogMaterial: Display: Missing cached shader map for material donut_Pink_MAT, compiling. 
+[2020.11.05-21.41.48:765][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/donut_Chocolate_Chocolate_MAT.donut_Chocolate_Chocolate_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.48:775][919]LogMaterial: Display: Missing cached shader map for material donut_Chocolate_Chocolate_MAT, compiling. 
+[2020.11.05-21.41.48:875][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/iceCream_Vanilla_Chocolate_MAT.iceCream_Vanilla_Chocolate_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.48:878][919]LogMaterial: Display: Missing cached shader map for material iceCream_Vanilla_Chocolate_MAT, compiling. 
+[2020.11.05-21.41.48:968][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/iceCream_Sorbet_MAT.iceCream_Sorbet_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.48:972][919]LogMaterial: Display: Missing cached shader map for material iceCream_Sorbet_MAT, compiling. 
+[2020.11.05-21.41.49:068][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/iceCream_Strawberry_Vanilla_MAT.iceCream_Strawberry_Vanilla_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.49:073][919]LogMaterial: Display: Missing cached shader map for material iceCream_Strawberry_Vanilla_MAT, compiling. 
+[2020.11.05-21.41.49:147][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/iceCream_Mint_Chocolate_MAT.iceCream_Mint_Chocolate_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.49:150][919]LogMaterial: Display: Missing cached shader map for material iceCream_Mint_Chocolate_MAT, compiling. 
+[2020.11.05-21.41.49:217][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/icePop_Lime_MAT.icePop_Lime_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.49:221][919]LogMaterial: Display: Missing cached shader map for material icePop_Lime_MAT, compiling. 
+[2020.11.05-21.41.49:297][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/icePop_Lemon_MAT.icePop_Lemon_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.49:302][919]LogMaterial: Display: Missing cached shader map for material icePop_Lemon_MAT, compiling. 
+[2020.11.05-21.41.49:374][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/icePop_RedWhiteBlue_MAT.icePop_RedWhiteBlue_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.49:378][919]LogMaterial: Display: Missing cached shader map for material icePop_RedWhiteBlue_MAT, compiling. 
+[2020.11.05-21.41.49:451][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/icePop_Strawberry_MAT.icePop_Strawberry_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.49:454][919]LogMaterial: Display: Missing cached shader map for material icePop_Strawberry_MAT, compiling. 
+[2020.11.05-21.41.49:537][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/icePop_Orange_MAT.icePop_Orange_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.49:541][919]LogMaterial: Display: Missing cached shader map for material icePop_Orange_MAT, compiling. 
+[2020.11.05-21.41.49:623][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/icePop_Grape_MAT.icePop_Grape_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.49:627][919]LogMaterial: Display: Missing cached shader map for material icePop_Grape_MAT, compiling. 
+[2020.11.05-21.41.49:715][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/pie_Cherry_MAT.pie_Cherry_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.49:720][919]LogMaterial: Display: Missing cached shader map for material pie_Cherry_MAT, compiling. 
+[2020.11.05-21.41.49:802][919]LogMaterial: Display: Material /Game/StylizedDesserts/Materials/pie_Blueberry_MAT.pie_Blueberry_MAT needed to have new flag set bUsedWithStaticLighting !
+[2020.11.05-21.41.49:806][919]LogMaterial: Display: Missing cached shader map for material pie_Blueberry_MAT, compiling. 
+[2020.11.05-21.41.50:048][919]LogUObjectHash: Compacting FUObjectHashTables data took  11.09ms
+[2020.11.05-21.41.50:296][919]LogStaticLightingSystem: Illumination: 3:13 min (9.17 sec encoding lightmaps, 610 ms encoding shadowmaps)
+[2020.11.05-21.41.50:296][919]LogStaticLightingSystem: Lightmap texture memory:  23.2 MB (23.2 MB streaming, 0.0 MB non-streaming), 32 textures
+[2020.11.05-21.41.50:296][919]LogStaticLightingSystem: Shadowmap texture memory: 5.4 MB (5.4 MB streaming, 0.0 MB non-streaming), 9 textures
+[2020.11.05-21.41.52:717][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 552
+[2020.11.05-21.41.52:723][919]DumpUnbuiltLightIteractions
+[2020.11.05-21.41.52:723][919]Lights with unbuilt interactions: 0
+[2020.11.05-21.41.52:723][919]
+[2020.11.05-21.41.52:723][919]Primitives with unbuilt interactions: 0
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 542
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 532
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 522
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 512
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 502
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 492
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 482
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 472
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 462
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 452
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 442
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 432
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 422
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 412
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 402
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 392
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 382
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 372
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 362
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 352
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 342
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 332
+[2020.11.05-21.43.34:943][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 322
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 312
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 302
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 292
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 282
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 272
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 262
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 252
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 242
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 232
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 222
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 212
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 202
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 192
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 182
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 172
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 162
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 152
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 142
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 132
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 122
+[2020.11.05-21.43.34:944][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 112
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 102
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 92
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 82
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 72
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 62
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 52
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 42
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 32
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.11.05-21.43.34:945][919]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.11.05-21.43.35:729][920]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.11.05-21.43.35:744][920]MapCheck: New page: Map1 - Nov. 5, 2020, 11:43:35 a.m.
+[2020.11.05-21.43.35:790][920]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 58.131ms to complete.
+[2020.11.05-21.46.42:559][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.11.05-21.46.44:445][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Map1_Auto1889385834E71245A5802F9B6DDE32007.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StarterContent/Maps/Map1_Auto1.umap'
+[2020.11.05-21.46.44:468][476]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Map1' took 1.932
+[2020.11.05-21.46.44:468][476]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.932
+[2020.11.05-21.46.44:477][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/bdayCake_Vanilla_Chocolate_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.44:572][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/bdayCake_Vanilla_Chocolate_MAT.bdayCake_Vanilla_Chocolate_MAT]
+[2020.11.05-21.46.44:572][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/bdayCake_Vanilla_Chocolate_MAT]
+[2020.11.05-21.46.44:618][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/bdayCake_Vanilla_Chocolate_MAT_AC1A5B5404DB39DDAE62A789CCEEAFF4D.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/bdayCake_Vanilla_Chocolate_MAT_Auto1.uasset'
+[2020.11.05-21.46.44:619][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/cookie_Chocolate_Chocolate_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.44:646][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/cookie_Chocolate_Chocolate_MAT.cookie_Chocolate_Chocolate_MAT]
+[2020.11.05-21.46.44:646][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/cookie_Chocolate_Chocolate_MAT]
+[2020.11.05-21.46.44:701][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/cookie_Chocolate_Chocolate_MAT_AD187C7CF45F82700988EADAFFB9A8FB8.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/cookie_Chocolate_Chocolate_MAT_Auto1.uasset'
+[2020.11.05-21.46.44:702][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/cookie_Sprinkles_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.44:741][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/cookie_Sprinkles_MAT.cookie_Sprinkles_MAT]
+[2020.11.05-21.46.44:741][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/cookie_Sprinkles_MAT]
+[2020.11.05-21.46.44:776][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/cookie_Sprinkles_MAT_Auto1EF6086DB4B03FC6E4BD42597D36F11E7.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/cookie_Sprinkles_MAT_Auto1.uasset'
+[2020.11.05-21.46.44:777][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/cupcake_Chocolate_Vanilla_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.44:810][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/cupcake_Chocolate_Vanilla_MAT.cupcake_Chocolate_Vanilla_MAT]
+[2020.11.05-21.46.44:810][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/cupcake_Chocolate_Vanilla_MAT]
+[2020.11.05-21.46.44:846][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/cupcake_Chocolate_Vanilla_MAT_AuC92A5E5E4FC9589D9B90ACA4D453073D.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/cupcake_Chocolate_Vanilla_MAT_Auto1.uasset'
+[2020.11.05-21.46.44:847][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/cupcake_redVelvet_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.44:878][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/cupcake_redVelvet_MAT.cupcake_redVelvet_MAT]
+[2020.11.05-21.46.44:878][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/cupcake_redVelvet_MAT]
+[2020.11.05-21.46.44:926][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/cupcake_redVelvet_MAT_Auto1E22A246942B3EABA77B7C6B2E2924EB9.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/cupcake_redVelvet_MAT_Auto1.uasset'
+[2020.11.05-21.46.44:927][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/donut_Chocolate_Chocolate_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.44:953][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/donut_Chocolate_Chocolate_MAT.donut_Chocolate_Chocolate_MAT]
+[2020.11.05-21.46.44:953][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/donut_Chocolate_Chocolate_MAT]
+[2020.11.05-21.46.44:985][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/donut_Chocolate_Chocolate_MAT_Au47D08EB847102CBAFD9FC589C583160A.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/donut_Chocolate_Chocolate_MAT_Auto1.uasset'
+[2020.11.05-21.46.44:987][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/donut_Chocolate_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:012][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/donut_Chocolate_MAT.donut_Chocolate_MAT]
+[2020.11.05-21.46.45:012][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/donut_Chocolate_MAT]
+[2020.11.05-21.46.45:045][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/donut_Chocolate_MAT_Auto1FDDD3ACD4A5B3ABBC22AD298680D886F.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/donut_Chocolate_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:046][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/donut_Glazed_MA] ([1] browsable assets)...
+[2020.11.05-21.46.45:076][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/donut_Glazed_MA.donut_Glazed_MA]
+[2020.11.05-21.46.45:076][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/donut_Glazed_MA]
+[2020.11.05-21.46.45:117][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/donut_Glazed_MA_Auto1A87914A945C19080FF0020910998EA4A.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/donut_Glazed_MA_Auto1.uasset'
+[2020.11.05-21.46.45:117][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/donut_Pink_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:148][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/donut_Pink_MAT.donut_Pink_MAT]
+[2020.11.05-21.46.45:148][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/donut_Pink_MAT]
+[2020.11.05-21.46.45:182][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/donut_Pink_MAT_Auto1902BED344CCE4E4A185B39B1E2EA861F.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/donut_Pink_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:183][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/donut_White_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:211][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/donut_White_MAT.donut_White_MAT]
+[2020.11.05-21.46.45:211][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/donut_White_MAT]
+[2020.11.05-21.46.45:246][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/donut_White_MAT_Auto133BF125243E1BD7467EB3DBBD6F2F476.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/donut_White_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:247][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/iceCream_Mint_Chocolate_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:276][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/iceCream_Mint_Chocolate_MAT.iceCream_Mint_Chocolate_MAT]
+[2020.11.05-21.46.45:276][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/iceCream_Mint_Chocolate_MAT]
+[2020.11.05-21.46.45:329][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/iceCream_Mint_Chocolate_MAT_Auto2CBD576C4F7423FA93566CA9BF1C1783.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/iceCream_Mint_Chocolate_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:331][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/iceCream_Sorbet_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:359][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/iceCream_Sorbet_MAT.iceCream_Sorbet_MAT]
+[2020.11.05-21.46.45:359][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/iceCream_Sorbet_MAT]
+[2020.11.05-21.46.45:400][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/iceCream_Sorbet_MAT_Auto1397A12D94CD2BEF3F08D09A90B489EA1.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/iceCream_Sorbet_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:402][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/iceCream_Strawberry_Vanilla_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:431][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/iceCream_Strawberry_Vanilla_MAT.iceCream_Strawberry_Vanilla_MAT]
+[2020.11.05-21.46.45:431][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/iceCream_Strawberry_Vanilla_MAT]
+[2020.11.05-21.46.45:466][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/iceCream_Strawberry_Vanilla_MAT_E26527F94C12C07548565694DA103268.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/iceCream_Strawberry_Vanilla_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:468][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/iceCream_Vanilla_Chocolate_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:499][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/iceCream_Vanilla_Chocolate_MAT.iceCream_Vanilla_Chocolate_MAT]
+[2020.11.05-21.46.45:499][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/iceCream_Vanilla_Chocolate_MAT]
+[2020.11.05-21.46.45:551][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/iceCream_Vanilla_Chocolate_MAT_AE7C92219488BB5143ECA93AD12ACE19E.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/iceCream_Vanilla_Chocolate_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:553][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/icePop_Grape_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:583][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/icePop_Grape_MAT.icePop_Grape_MAT]
+[2020.11.05-21.46.45:583][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/icePop_Grape_MAT]
+[2020.11.05-21.46.45:628][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/icePop_Grape_MAT_Auto1879E3FED4EF264CBAB5D6DAAF0909B19.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/icePop_Grape_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:630][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/icePop_Lemon_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:656][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/icePop_Lemon_MAT.icePop_Lemon_MAT]
+[2020.11.05-21.46.45:656][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/icePop_Lemon_MAT]
+[2020.11.05-21.46.45:682][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/icePop_Lemon_MAT_Auto10CF93EF54B3B2ABA193334B463493532.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/icePop_Lemon_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:683][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/icePop_Lime_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:710][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/icePop_Lime_MAT.icePop_Lime_MAT]
+[2020.11.05-21.46.45:710][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/icePop_Lime_MAT]
+[2020.11.05-21.46.45:741][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/icePop_Lime_MAT_Auto18A1191B5452854BCBD1B728BBE894B09.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/icePop_Lime_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:742][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/icePop_Orange_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:766][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/icePop_Orange_MAT.icePop_Orange_MAT]
+[2020.11.05-21.46.45:766][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/icePop_Orange_MAT]
+[2020.11.05-21.46.45:793][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/icePop_Orange_MAT_Auto1989B0C5A4F36E5BD1287D79AE2CEFAE4.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/icePop_Orange_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:794][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/icePop_RedWhiteBlue_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:819][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/icePop_RedWhiteBlue_MAT.icePop_RedWhiteBlue_MAT]
+[2020.11.05-21.46.45:819][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/icePop_RedWhiteBlue_MAT]
+[2020.11.05-21.46.45:845][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/icePop_RedWhiteBlue_MAT_Auto16DECF16B4386C1563700608DC712CDC4.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/icePop_RedWhiteBlue_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:846][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/icePop_Strawberry_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:875][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/icePop_Strawberry_MAT.icePop_Strawberry_MAT]
+[2020.11.05-21.46.45:875][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/icePop_Strawberry_MAT]
+[2020.11.05-21.46.45:914][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/icePop_Strawberry_MAT_Auto1109D44194DC1A6AAD80DE392A99C5021.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/icePop_Strawberry_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:915][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/pie_Cherry_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.45:956][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/pie_Cherry_MAT.pie_Cherry_MAT]
+[2020.11.05-21.46.45:956][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/pie_Cherry_MAT]
+[2020.11.05-21.46.45:984][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/pie_Cherry_MAT_Auto180A04FA94B91E534B4738AB6B3839B31.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/pie_Cherry_MAT_Auto1.uasset'
+[2020.11.05-21.46.45:986][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/brownie_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.46:016][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/brownie_MAT.brownie_MAT]
+[2020.11.05-21.46.46:016][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/brownie_MAT]
+[2020.11.05-21.46.46:043][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/brownie_MAT_Auto1378C02D84BCA0FCA5BF2329A01248A1A.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/brownie_MAT_Auto1.uasset'
+[2020.11.05-21.46.46:044][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/cookie_ChocolateChip_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.46:071][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/cookie_ChocolateChip_MAT.cookie_ChocolateChip_MAT]
+[2020.11.05-21.46.46:071][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/cookie_ChocolateChip_MAT]
+[2020.11.05-21.46.46:101][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/cookie_ChocolateChip_MAT_Auto12312DDEB4F79A5B94F9845997A059797.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/cookie_ChocolateChip_MAT_Auto1.uasset'
+[2020.11.05-21.46.46:102][476]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StylizedDesserts/Materials/pie_Blueberry_MAT] ([1] browsable assets)...
+[2020.11.05-21.46.46:127][476]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StylizedDesserts/Materials/pie_Blueberry_MAT.pie_Blueberry_MAT]
+[2020.11.05-21.46.46:127][476]OBJ SavePackage: Finished generating thumbnails for package [/Game/StylizedDesserts/Materials/pie_Blueberry_MAT]
+[2020.11.05-21.46.46:156][476]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/pie_Blueberry_MAT_Auto13E7CADC94476D6226682528D6023DBB0.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StylizedDesserts/Materials/pie_Blueberry_MAT_Auto1.uasset'
+[2020.11.05-21.46.46:157][476]LogFileHelpers: Auto-saving content packages took 1.689
+[2020.11.05-21.47.07:612][611]LogSlate: Window 'Message Log' being destroyed
+[2020.11.05-21.47.07:654][611]LogSlate: Window 'Message Log' being destroyed
+[2020.11.05-21.47.09:699][656]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.05-21.47.09:768][656]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.05-21.47.09:770][656]PIE: New page: PIE session: Map1 (Nov. 5, 2020, 11:47:09 a.m.)
+[2020.11.05-21.47.09:782][656]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Map1
+[2020.11.05-21.47.10:000][656]LogPlayLevel: PIE: StaticDuplicateObject took: (0.217217s)
+[2020.11.05-21.47.10:080][656]LogAIModule: Creating AISystem for world Map1
+[2020.11.05-21.47.10:084][656]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D68037E00), frame # 89656
+[2020.11.05-21.47.10:090][656]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D4D8039C0), frame # 89656
+[2020.11.05-21.47.10:100][656]LogPlayLevel: PIE: World Init took: (0.100391s)
+[2020.11.05-21.47.10:101][656]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Map1.Map1 to /Game/StarterContent/Maps/UEDPIE_0_Map1.Map1 (0.319020s)
+[2020.11.05-21.47.10:116][656]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.11.05-21.47.10:126][656]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.05-21.47.10:126][656]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.05-21.47.10:126][656]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.05-21.47.10:126][656]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.05-21.47.10:126][656]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.05-21.47.10:126][656]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.05-21.47.10:126][656]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.05-21.47.10:127][656]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.05-21.47.10:133][656]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.05-21.47.10:133][656]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.05-21.47.10:143][656]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.05-21.47.10:143][656]LogAudioMixer: Display: 1: FrontRight
+[2020.11.05-21.47.10:183][656]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.05-21.47.10:187][656]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.05-21.47.10:187][656]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.05-21.47.10:187][656]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.05-21.47.10:191][656]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.05-21.47.10:213][656]LogInit: FAudioDevice initialized.
+[2020.11.05-21.47.10:268][656]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.11.05-21.47.10:334][656]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2020.11.05-16.47.10
+[2020.11.05-21.47.10:338][656]LogWorld: Bringing up level for play took: 0.053123
+[2020.11.05-21.47.10:350][656]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.11.05-21.47.10:477][656]PIE: Server logged in
+[2020.11.05-21.47.10:479][656]PIE: Play in editor total start time 0.743 seconds.
+[2020.11.05-21.47.26:492][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-21.47.26:492][135]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Map1
+[2020.11.05-21.47.26:502][135]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-21.47.26:507][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-21.47.26:525][135]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.05-21.47.26:530][135]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-21.47.26:581][135]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-21.47.26:632][135]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D68037E00), frame # 90135
+[2020.11.05-21.47.26:632][135]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D4D8039C0), frame # 90135
+[2020.11.05-21.47.26:636][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.11.05-21.47.26:695][136]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.11.05-21.47.30:211][209]LogTemp: Repeating last play command: Selected Viewport
+[2020.11.05-21.47.30:241][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.11.05-21.47.30:241][209]PIE: New page: PIE session: Map1 (Nov. 5, 2020, 11:47:30 a.m.)
+[2020.11.05-21.47.30:241][209]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Map1
+[2020.11.05-21.47.30:391][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.149304s)
+[2020.11.05-21.47.30:392][209]LogAIModule: Creating AISystem for world Map1
+[2020.11.05-21.47.30:392][209]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D8ECD9000), frame # 90209
+[2020.11.05-21.47.30:393][209]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D4D802480), frame # 90209
+[2020.11.05-21.47.30:393][209]LogPlayLevel: PIE: World Init took: (0.001864s)
+[2020.11.05-21.47.30:393][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Map1.Map1 to /Game/StarterContent/Maps/UEDPIE_0_Map1.Map1 (0.151494s)
+[2020.11.05-21.47.30:406][209]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.11.05-21.47.30:410][209]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.11.05-21.47.30:410][209]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.11.05-21.47.30:410][209]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.11.05-21.47.30:410][209]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.11.05-21.47.30:410][209]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.11.05-21.47.30:410][209]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.11.05-21.47.30:410][209]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.11.05-21.47.30:410][209]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.11.05-21.47.30:411][209]LogAudio: Display: Using built-in audio occlusion.
+[2020.11.05-21.47.30:411][209]LogAudioMixer: Display: Initializing audio mixer.
+[2020.11.05-21.47.30:414][209]LogAudioMixer: Display: 0: FrontLeft
+[2020.11.05-21.47.30:414][209]LogAudioMixer: Display: 1: FrontRight
+[2020.11.05-21.47.30:434][209]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.11.05-21.47.30:434][209]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.11.05-21.47.30:434][209]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.11.05-21.47.30:434][209]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.11.05-21.47.30:436][209]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.11.05-21.47.30:452][209]LogInit: FAudioDevice initialized.
+[2020.11.05-21.47.30:465][209]LogLoad: Game class is 'VehicleGameMode_C'
+[2020.11.05-21.47.30:487][209]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Map1.Map1 up for play (max tick rate 60) at 2020.11.05-16.47.30
+[2020.11.05-21.47.30:488][209]LogWorld: Bringing up level for play took: 0.022147
+[2020.11.05-21.47.30:488][209]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.11.05-21.47.30:494][209]PIE: Server logged in
+[2020.11.05-21.47.30:495][209]PIE: Play in editor total start time 0.255 seconds.
+[2020.11.05-21.47.30:841][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-21.47.30:841][218]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Map1
+[2020.11.05-21.47.30:842][218]LogWorld: UWorld::CleanupWorld for Map1, bSessionEnded=true, bCleanupResources=true
+[2020.11.05-21.47.30:850][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-21.47.30:862][218]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.11.05-21.47.30:866][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.11.05-21.47.30:906][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.11.05-21.47.30:933][218]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D4D802480), frame # 90218
+[2020.11.05-21.47.30:933][218]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D8ECD9000), frame # 90218
+[2020.11.05-21.47.30:935][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2020.11.05-21.47.30:982][219]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.11.05-23.21.07:446][526]LogSlate: Window 'Project Settings' being destroyed
+[2020.11.05-23.21.07:520][526]LogSlate: Window 'Project Settings' being destroyed
+[2020.11.06-00.47.00:276][ 29]LogUObjectHash: Compacting FUObjectHashTables data took  24.47ms
+[2020.11.06-00.47.02:054][ 29]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Map19363DBB443D411C41CB948AA12F4E760.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StarterContent/Maps/Map1.umap'
+[2020.11.06-00.47.03:468][ 29]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Map1_BuiltDataBBE0B3384A6F304C692A43816AD854E4.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StarterContent/Maps/Map1_BuiltData.uasset'
+[2020.11.06-00.47.03:870][ 29]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.06-00.47.03:874][ 29]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Map1.Map1
+[2020.11.06-00.47.03:874][ 29]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Map1_BuiltData.Map1_BuiltData
+[2020.11.06-00.47.10:051][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2020.11.06-00.47.10:137][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/bdayCake_Vanilla_Chocolate_MATAD1548614C7E27C81236C989375F5AAE.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/bdayCake_Vanilla_Chocolate_MAT.uasset'
+[2020.11.06-00.47.10:171][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/cookie_Chocolate_Chocolate_MAT98C54B224D317FEAEAB58E9A4B7B124E.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/cookie_Chocolate_Chocolate_MAT.uasset'
+[2020.11.06-00.47.10:196][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/cookie_Sprinkles_MAT184436F148385B091B2AFF9A80EB791D.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/cookie_Sprinkles_MAT.uasset'
+[2020.11.06-00.47.10:227][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/cupcake_Chocolate_Vanilla_MATA5F79FC745708C679DE1449FBB8985A2.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/cupcake_Chocolate_Vanilla_MAT.uasset'
+[2020.11.06-00.47.10:255][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/cupcake_redVelvet_MATBB6DA9FE478FD4DADF7762ABA3AFB16F.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/cupcake_redVelvet_MAT.uasset'
+[2020.11.06-00.47.10:285][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/donut_Chocolate_Chocolate_MATC0195C39435D3D2C61266BA84DF6B10E.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/donut_Chocolate_Chocolate_MAT.uasset'
+[2020.11.06-00.47.10:314][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/donut_Chocolate_MAT62B459774E1C3F220AC86E8128BF1CC6.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/donut_Chocolate_MAT.uasset'
+[2020.11.06-00.47.10:348][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/donut_Glazed_MAAD872F5C4D48ED1D2ED62AA1EFB41AB9.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/donut_Glazed_MA.uasset'
+[2020.11.06-00.47.10:375][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/donut_Pink_MAT35272D9E43C617AC8224A6B8D43C53B8.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/donut_Pink_MAT.uasset'
+[2020.11.06-00.47.10:399][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/donut_White_MAT0C9D09D4492C288138303ABB07D9D61A.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/donut_White_MAT.uasset'
+[2020.11.06-00.47.10:427][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/iceCream_Mint_Chocolate_MAT6E876F744A25198EDC6F97B75B102061.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/iceCream_Mint_Chocolate_MAT.uasset'
+[2020.11.06-00.47.10:453][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/iceCream_Sorbet_MAT079EAC334F3CAFF5E8FD13A5CE67DD03.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/iceCream_Sorbet_MAT.uasset'
+[2020.11.06-00.47.10:477][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/iceCream_Strawberry_Vanilla_MAT50A55EAC4E2947668C87C9B5EB064EE2.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/iceCream_Strawberry_Vanilla_MAT.uasset'
+[2020.11.06-00.47.10:503][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/iceCream_Vanilla_Chocolate_MAT18646CBE48A7DD325B888B814BF48001.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/iceCream_Vanilla_Chocolate_MAT.uasset'
+[2020.11.06-00.47.10:531][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/icePop_Grape_MAT99F55B884ACF1A647D9CB99DB77AAAA4.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/icePop_Grape_MAT.uasset'
+[2020.11.06-00.47.10:555][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/icePop_Lemon_MAT0BE7C0F54C45D60A2F57669EE91B95D6.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/icePop_Lemon_MAT.uasset'
+[2020.11.06-00.47.10:581][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/icePop_Lime_MAT493EFE6E4FAB1D7764CC2DB504CD6415.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/icePop_Lime_MAT.uasset'
+[2020.11.06-00.47.10:608][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/icePop_Orange_MATA8EE07DD4E59BEF2C993D681B5EC67DD.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/icePop_Orange_MAT.uasset'
+[2020.11.06-00.47.10:639][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/icePop_RedWhiteBlue_MAT80ED4D52439F023E8EAE70A456318207.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/icePop_RedWhiteBlue_MAT.uasset'
+[2020.11.06-00.47.10:666][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/icePop_Strawberry_MAT863C200145B49FC16447EB9AD534771E.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/icePop_Strawberry_MAT.uasset'
+[2020.11.06-00.47.10:696][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/pie_Cherry_MAT3CDA82B048222916470132A90745EA12.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/pie_Cherry_MAT.uasset'
+[2020.11.06-00.47.10:730][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/brownie_MATEA8F30EF4AC0B4F82A0DE89EDF9048D8.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/brownie_MAT.uasset'
+[2020.11.06-00.47.10:760][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/cookie_ChocolateChip_MAT874DC7024ADD35D6094A1D933775B0D8.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/cookie_ChocolateChip_MAT.uasset'
+[2020.11.06-00.47.10:785][595]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/pie_Blueberry_MAT02E1AE7042413390ECD79DB847F08744.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Content/StylizedDesserts/Materials/pie_Blueberry_MAT.uasset'
+[2020.11.06-00.47.10:829][595]AssetCheck: New page: Asset Save: multiple assets
+[2020.11.06-00.47.10:829][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/bdayCake_Vanilla_Chocolate_MAT.bdayCake_Vanilla_Chocolate_MAT
+[2020.11.06-00.47.10:829][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/cookie_Chocolate_Chocolate_MAT.cookie_Chocolate_Chocolate_MAT
+[2020.11.06-00.47.10:829][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/cookie_Sprinkles_MAT.cookie_Sprinkles_MAT
+[2020.11.06-00.47.10:829][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/cupcake_Chocolate_Vanilla_MAT.cupcake_Chocolate_Vanilla_MAT
+[2020.11.06-00.47.10:829][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/cupcake_redVelvet_MAT.cupcake_redVelvet_MAT
+[2020.11.06-00.47.10:829][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/donut_Chocolate_Chocolate_MAT.donut_Chocolate_Chocolate_MAT
+[2020.11.06-00.47.10:829][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/donut_Chocolate_MAT.donut_Chocolate_MAT
+[2020.11.06-00.47.10:829][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/donut_Glazed_MA.donut_Glazed_MA
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/donut_Pink_MAT.donut_Pink_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/donut_White_MAT.donut_White_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/iceCream_Mint_Chocolate_MAT.iceCream_Mint_Chocolate_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/iceCream_Sorbet_MAT.iceCream_Sorbet_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/iceCream_Strawberry_Vanilla_MAT.iceCream_Strawberry_Vanilla_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/iceCream_Vanilla_Chocolate_MAT.iceCream_Vanilla_Chocolate_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/icePop_Grape_MAT.icePop_Grape_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/icePop_Lemon_MAT.icePop_Lemon_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/icePop_Lime_MAT.icePop_Lime_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/icePop_Orange_MAT.icePop_Orange_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/icePop_RedWhiteBlue_MAT.icePop_RedWhiteBlue_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/icePop_Strawberry_MAT.icePop_Strawberry_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/pie_Cherry_MAT.pie_Cherry_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/brownie_MAT.brownie_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/cookie_ChocolateChip_MAT.cookie_ChocolateChip_MAT
+[2020.11.06-00.47.10:830][595]LogContentValidation: Display: Validating Material /Game/StylizedDesserts/Materials/pie_Blueberry_MAT.pie_Blueberry_MAT
+[2020.11.06-00.47.12:914][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2020.11.06-00.47.13:021][782]LogSlate: Window 'GAME2020_Final - Unreal Editor' being destroyed
+[2020.11.06-00.47.13:029][782]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.11.06-00.47.13:595][783]Cmd: QUIT_EDITOR
+[2020.11.06-00.47.13:596][783]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2020.11.06-00.47.13:613][783]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.11.06-00.47.14:806][783]LogExit: Preparing to exit.
+[2020.11.06-00.47.15:722][783]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-00.47.16:034][783]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
+[2020.11.06-00.47.16:160][783]LogExit: Editor shut down
+[2020.11.06-00.47.16:165][783]LogExit: Transaction tracking system shut down
+[2020.11.06-00.47.16:310][783]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.11.06-00.47.17:040][783]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D56DD9C00), frame # 123783
+[2020.11.06-00.47.17:305][783]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (0000024D56F029C0), frame # 123783
+[2020.11.06-00.47.17:305][783]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D56D991C0), frame # 123783
+[2020.11.06-00.47.17:437][783]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D47DD3E00), frame # 123783
+[2020.11.06-00.47.17:437][783]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D4CF9A980), frame # 123783
+[2020.11.06-00.47.17:536][783]LogExit: Object subsystem successfully closed.
+[2020.11.06-00.47.17:634][783]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.11.06-00.47.17:921][783]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (802)
+[2020.11.06-00.47.17:921][783]LogModuleManager: Shutting down and abandoning module GAME2020_Final (800)
+[2020.11.06-00.47.17:921][783]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (798)
+[2020.11.06-00.47.17:921][783]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (796)
+[2020.11.06-00.47.17:922][783]LogModuleManager: Shutting down and abandoning module Voice (794)
+[2020.11.06-00.47.17:922][783]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (792)
+[2020.11.06-00.47.17:922][783]LogModuleManager: Shutting down and abandoning module SceneOutliner (790)
+[2020.11.06-00.47.17:923][783]LogModuleManager: Shutting down and abandoning module AddContentDialog (788)
+[2020.11.06-00.47.17:948][783]LogModuleManager: Shutting down and abandoning module WidgetCarousel (787)
+[2020.11.06-00.47.17:948][783]LogModuleManager: Shutting down and abandoning module EditorWidgets (784)
+[2020.11.06-00.47.17:948][783]LogModuleManager: Shutting down and abandoning module CollectionManager (782)
+[2020.11.06-00.47.17:949][783]LogModuleManager: Shutting down and abandoning module StatsViewer (780)
+[2020.11.06-00.47.17:951][783]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (778)
+[2020.11.06-00.47.17:951][783]LogModuleManager: Shutting down and abandoning module FoliageEdit (776)
+[2020.11.06-00.47.17:952][783]LogModuleManager: Shutting down and abandoning module LandscapeEditor (774)
+[2020.11.06-00.47.17:959][783]LogModuleManager: Shutting down and abandoning module MeshPaintMode (772)
+[2020.11.06-00.47.17:960][783]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (770)
+[2020.11.06-00.47.17:960][783]LogModuleManager: Shutting down and abandoning module ActorPickerMode (768)
+[2020.11.06-00.47.17:960][783]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (766)
+[2020.11.06-00.47.17:961][783]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (764)
+[2020.11.06-00.47.17:961][783]LogModuleManager: Shutting down and abandoning module AutomationWorker (762)
+[2020.11.06-00.47.17:962][783]LogModuleManager: Shutting down and abandoning module SteamVREditor (760)
+[2020.11.06-00.47.17:962][783]LogModuleManager: Shutting down and abandoning module OculusMR (758)
+[2020.11.06-00.47.17:962][783]LogModuleManager: Shutting down and abandoning module GooglePADEditor (756)
+[2020.11.06-00.47.17:963][783]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (754)
+[2020.11.06-00.47.17:963][783]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (752)
+[2020.11.06-00.47.17:969][783]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (750)
+[2020.11.06-00.47.17:973][783]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (748)
+[2020.11.06-00.47.17:976][783]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (746)
+[2020.11.06-00.47.17:978][783]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (744)
+[2020.11.06-00.47.17:978][783]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (742)
+[2020.11.06-00.47.17:978][783]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (740)
+[2020.11.06-00.47.17:978][783]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (738)
+[2020.11.06-00.47.17:978][783]LogModuleManager: Shutting down and abandoning module WebMMedia (736)
+[2020.11.06-00.47.17:979][783]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (734)
+[2020.11.06-00.47.17:981][783]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (732)
+[2020.11.06-00.47.17:982][783]LogModuleManager: Shutting down and abandoning module SequenceRecorder (731)
+[2020.11.06-00.47.17:983][783]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (728)
+[2020.11.06-00.47.17:984][783]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (726)
+[2020.11.06-00.47.17:984][783]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (724)
+[2020.11.06-00.47.17:984][783]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (722)
+[2020.11.06-00.47.17:984][783]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (720)
+[2020.11.06-00.47.17:984][783]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (718)
+[2020.11.06-00.47.17:984][783]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (716)
+[2020.11.06-00.47.17:984][783]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (714)
+[2020.11.06-00.47.17:984][783]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (712)
+[2020.11.06-00.47.17:984][783]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (710)
+[2020.11.06-00.47.17:984][783]LogModuleManager: Shutting down and abandoning module PlanarCut (708)
+[2020.11.06-00.47.17:984][783]LogModuleManager: Shutting down and abandoning module CharacterAI (706)
+[2020.11.06-00.47.17:984][783]LogModuleManager: Shutting down and abandoning module TextureAlignMode (704)
+[2020.11.06-00.47.17:984][783]LogModuleManager: Shutting down and abandoning module BspMode (702)
+[2020.11.06-00.47.17:986][783]LogModuleManager: Shutting down and abandoning module PlacementMode (701)
+[2020.11.06-00.47.17:986][783]LogModuleManager: Shutting down and abandoning module GeometryMode (698)
+[2020.11.06-00.47.17:986][783]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (696)
+[2020.11.06-00.47.17:988][783]LogModuleManager: Shutting down and abandoning module SmartSnapping (694)
+[2020.11.06-00.47.17:988][783]LogModuleManager: Shutting down and abandoning module SessionServices (692)
+[2020.11.06-00.47.17:988][783]LogModuleManager: Shutting down and abandoning module MeshPaint (690)
+[2020.11.06-00.47.17:989][783]LogModuleManager: Shutting down and abandoning module ViewportSnapping (688)
+[2020.11.06-00.47.17:990][783]LogModuleManager: Shutting down and abandoning module ViewportInteraction (686)
+[2020.11.06-00.47.17:990][783]LogModuleManager: Shutting down and abandoning module ClothPainter (684)
+[2020.11.06-00.47.17:992][783]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (683)
+[2020.11.06-00.47.17:994][783]LogModuleManager: Shutting down and abandoning module LogVisualizer (680)
+[2020.11.06-00.47.17:997][783]LogModuleManager: Shutting down and abandoning module IntroTutorials (678)
+[2020.11.06-00.47.17:999][783]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (677)
+[2020.11.06-00.47.18:000][783]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (674)
+[2020.11.06-00.47.18:000][783]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (672)
+[2020.11.06-00.47.18:001][783]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (670)
+[2020.11.06-00.47.18:001][783]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (669)
+[2020.11.06-00.47.19:598][783]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (666)
+[2020.11.06-00.47.19:598][783]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (664)
+[2020.11.06-00.47.19:598][783]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (662)
+[2020.11.06-00.47.19:598][783]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (660)
+[2020.11.06-00.47.19:598][783]LogModuleManager: Shutting down and abandoning module TraceInsights (658)
+[2020.11.06-00.47.19:607][783]LogModuleManager: Shutting down and abandoning module TraceServices (657)
+[2020.11.06-00.47.19:608][783]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (654)
+[2020.11.06-00.47.19:608][783]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (652)
+[2020.11.06-00.47.19:609][783]LogModuleManager: Shutting down and abandoning module InputBindingEditor (650)
+[2020.11.06-00.47.19:609][783]LogModuleManager: Shutting down and abandoning module MergeActors (648)
+[2020.11.06-00.47.19:611][783]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (646)
+[2020.11.06-00.47.19:612][783]LogModuleManager: Shutting down and abandoning module LocalizationService (645)
+[2020.11.06-00.47.19:614][783]LogModuleManager: Shutting down and abandoning module HardwareTargeting (642)
+[2020.11.06-00.47.19:614][783]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (640)
+[2020.11.06-00.47.19:614][783]LogModuleManager: Shutting down and abandoning module UndoHistory (638)
+[2020.11.06-00.47.19:615][783]LogModuleManager: Shutting down and abandoning module XmlParser (636)
+[2020.11.06-00.47.19:616][783]LogModuleManager: Shutting down and abandoning module Blutility (634)
+[2020.11.06-00.47.19:616][783]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (632)
+[2020.11.06-00.47.19:618][783]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (631)
+[2020.11.06-00.47.19:619][783]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (628)
+[2020.11.06-00.47.19:620][783]LogModuleManager: Shutting down and abandoning module SettingsEditor (626)
+[2020.11.06-00.47.19:623][783]LogModuleManager: Shutting down and abandoning module ProjectLauncher (624)
+[2020.11.06-00.47.19:624][783]LogModuleManager: Shutting down and abandoning module SessionFrontend (622)
+[2020.11.06-00.47.19:625][783]LogModuleManager: Shutting down and abandoning module ProfilerClient (620)
+[2020.11.06-00.47.19:625][783]LogModuleManager: Shutting down and abandoning module DeviceManager (618)
+[2020.11.06-00.47.19:627][783]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (617)
+[2020.11.06-00.47.19:661][783]LogModuleManager: Shutting down and abandoning module AutomationController (614)
+[2020.11.06-00.47.19:662][783]LogModuleManager: Shutting down and abandoning module AutomationWindow (612)
+[2020.11.06-00.47.19:663][783]LogModuleManager: Shutting down and abandoning module Layers (610)
+[2020.11.06-00.47.19:666][783]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (608)
+[2020.11.06-00.47.19:666][783]LogModuleManager: Shutting down and abandoning module DetailCustomizations (606)
+[2020.11.06-00.47.19:667][783]LogModuleManager: Shutting down and abandoning module PackagesDialog (604)
+[2020.11.06-00.47.19:667][783]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (602)
+[2020.11.06-00.47.19:670][783]LogModuleManager: Shutting down and abandoning module Persona (600)
+[2020.11.06-00.47.19:675][783]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (599)
+[2020.11.06-00.47.19:675][783]LogModuleManager: Shutting down and abandoning module AnimGraph (597)
+[2020.11.06-00.47.19:676][783]LogModuleManager: Shutting down and abandoning module Kismet (594)
+[2020.11.06-00.47.19:681][783]LogModuleManager: Shutting down and abandoning module KismetWidgets (593)
+[2020.11.06-00.47.19:681][783]LogModuleManager: Shutting down and abandoning module GraphEditor (590)
+[2020.11.06-00.47.19:685][783]LogModuleManager: Shutting down and abandoning module StructViewer (588)
+[2020.11.06-00.47.19:685][783]LogModuleManager: Shutting down and abandoning module ClassViewer (586)
+[2020.11.06-00.47.19:694][783]LogModuleManager: Shutting down and abandoning module Toolbox (584)
+[2020.11.06-00.47.19:695][783]LogModuleManager: Shutting down and abandoning module ModuleUI (582)
+[2020.11.06-00.47.19:696][783]LogModuleManager: Shutting down and abandoning module OutputLog (580)
+[2020.11.06-00.47.19:698][783]LogModuleManager: Shutting down and abandoning module GammaUI (578)
+[2020.11.06-00.47.19:699][783]LogModuleManager: Shutting down and abandoning module Documentation (576)
+[2020.11.06-00.47.19:704][783]LogModuleManager: Shutting down and abandoning module LiveCoding (574)
+[2020.11.06-00.47.19:705][783]LogModuleManager: Shutting down and abandoning module LevelSequence (572)
+[2020.11.06-00.47.19:705][783]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (570)
+[2020.11.06-00.47.19:706][783]LogModuleManager: Shutting down and abandoning module MovieScene (568)
+[2020.11.06-00.47.19:706][783]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (566)
+[2020.11.06-00.47.19:707][783]LogModuleManager: Shutting down and abandoning module LauncherPlatform (564)
+[2020.11.06-00.47.19:707][783]LogModuleManager: Shutting down and abandoning module AnalyticsET (562)
+[2020.11.06-00.47.19:707][783]LogModuleManager: Shutting down and abandoning module PortalServices (560)
+[2020.11.06-00.47.19:707][783]LogModuleManager: Shutting down and abandoning module PortalRpc (558)
+[2020.11.06-00.47.19:707][783]LogModuleManager: Shutting down and abandoning module MessagingRpc (556)
+[2020.11.06-00.47.19:707][783]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (554)
+[2020.11.06-00.47.19:707][783]LogModuleManager: Shutting down and abandoning module AudioMixerCore (553)
+[2020.11.06-00.47.19:707][783]LogModuleManager: Shutting down and abandoning module AIModule (550)
+[2020.11.06-00.47.19:708][783]LogModuleManager: Shutting down and abandoning module GameplayDebugger (549)
+[2020.11.06-00.47.19:708][783]LogModuleManager: Shutting down and abandoning module AITestSuite (547)
+[2020.11.06-00.47.19:709][783]LogModuleManager: Shutting down and abandoning module NavigationSystem (545)
+[2020.11.06-00.47.19:709][783]LogModuleManager: Shutting down and abandoning module ProfilerService (542)
+[2020.11.06-00.47.19:885][783]LogModuleManager: Shutting down and abandoning module TaskGraph (540)
+[2020.11.06-00.47.19:886][783]LogModuleManager: Shutting down and abandoning module ScreenshotTools (538)
+[2020.11.06-00.47.19:886][783]LogModuleManager: Shutting down and abandoning module SynthesisEditor (536)
+[2020.11.06-00.47.19:886][783]LogModuleManager: Shutting down and abandoning module Synthesis (534)
+[2020.11.06-00.47.19:888][783]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (532)
+[2020.11.06-00.47.19:888][783]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (530)
+[2020.11.06-00.47.19:888][783]LogModuleManager: Shutting down and abandoning module OculusEditor (528)
+[2020.11.06-00.47.19:888][783]LogModuleManager: Shutting down and abandoning module OculusInput (526)
+[2020.11.06-00.47.19:888][783]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (524)
+[2020.11.06-00.47.19:888][783]LogModuleManager: Shutting down and abandoning module GooglePAD (522)
+[2020.11.06-00.47.19:888][783]LogModuleManager: Shutting down and abandoning module EditableMesh (520)
+[2020.11.06-00.47.19:889][783]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (518)
+[2020.11.06-00.47.19:889][783]LogModuleManager: Shutting down and abandoning module CableComponent (516)
+[2020.11.06-00.47.19:889][783]LogModuleManager: Shutting down and abandoning module AudioCapture (514)
+[2020.11.06-00.47.19:889][783]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (513)
+[2020.11.06-00.47.19:889][783]LogModuleManager: Shutting down and abandoning module AssetTags (510)
+[2020.11.06-00.47.19:889][783]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (508)
+[2020.11.06-00.47.19:889][783]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (506)
+[2020.11.06-00.47.19:889][783]LogModuleManager: Shutting down and abandoning module AppleImageUtils (504)
+[2020.11.06-00.47.19:889][783]LogModuleManager: Shutting down and abandoning module AndroidPermission (502)
+[2020.11.06-00.47.19:889][783]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (500)
+[2020.11.06-00.47.19:890][783]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (498)
+[2020.11.06-00.47.19:892][783]LogModuleManager: Shutting down and abandoning module TemplateSequence (496)
+[2020.11.06-00.47.19:892][783]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (494)
+[2020.11.06-00.47.19:892][783]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (492)
+[2020.11.06-00.47.19:893][783]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (490)
+[2020.11.06-00.47.19:893][783]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (488)
+[2020.11.06-00.47.19:893][783]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (487)
+[2020.11.06-00.47.19:893][783]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (484)
+[2020.11.06-00.47.19:893][783]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (482)
+[2020.11.06-00.47.19:894][783]LogModuleManager: Shutting down and abandoning module MediaCompositing (480)
+[2020.11.06-00.47.19:894][783]LogModuleManager: Shutting down and abandoning module ImgMedia (478)
+[2020.11.06-00.47.19:894][783]LogModuleManager: Shutting down and abandoning module UIWS (476)
+[2020.11.06-00.47.19:894][783]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (474)
+[2020.11.06-00.47.19:894][783]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (472)
+[2020.11.06-00.47.19:894][783]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (470)
+[2020.11.06-00.47.19:894][783]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (468)
+[2020.11.06-00.47.19:894][783]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (466)
+[2020.11.06-00.47.19:894][783]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (464)
+[2020.11.06-00.47.19:898][783]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (462)
+[2020.11.06-00.47.19:898][783]LogModuleManager: Shutting down and abandoning module MeshConversion (460)
+[2020.11.06-00.47.19:899][783]LogModuleManager: Shutting down and abandoning module DynamicMesh (458)
+[2020.11.06-00.47.19:899][783]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (456)
+[2020.11.06-00.47.19:900][783]LogModuleManager: Shutting down and abandoning module GeometricObjects (454)
+[2020.11.06-00.47.19:901][783]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (452)
+[2020.11.06-00.47.19:901][783]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (451)
+[2020.11.06-00.47.19:901][783]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (448)
+[2020.11.06-00.47.19:901][783]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (446)
+[2020.11.06-00.47.19:901][783]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (444)
+[2020.11.06-00.47.19:901][783]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (442)
+[2020.11.06-00.47.19:901][783]LogModuleManager: Shutting down and abandoning module ChaosNiagara (440)
+[2020.11.06-00.47.19:901][783]LogModuleManager: Shutting down and abandoning module FractureEditor (438)
+[2020.11.06-00.47.19:902][783]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (436)
+[2020.11.06-00.47.19:902][783]LogModuleManager: Shutting down and abandoning module ChaosCloth (434)
+[2020.11.06-00.47.19:902][783]LogModuleManager: Shutting down and abandoning module BackChannel (432)
+[2020.11.06-00.47.19:903][783]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (430)
+[2020.11.06-00.47.19:903][783]LogModuleManager: Shutting down and abandoning module AutomationUtils (428)
+[2020.11.06-00.47.19:903][783]LogModuleManager: Shutting down and abandoning module AlembicImporter (426)
+[2020.11.06-00.47.19:903][783]LogModuleManager: Shutting down and abandoning module AlembicLibrary (425)
+[2020.11.06-00.47.19:903][783]LogModuleManager: Shutting down and abandoning module GeometryCache (424)
+[2020.11.06-00.47.19:903][783]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (423)
+[2020.11.06-00.47.19:903][783]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (418)
+[2020.11.06-00.47.19:904][783]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (416)
+[2020.11.06-00.47.19:905][783]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (414)
+[2020.11.06-00.47.19:905][783]LogModuleManager: Shutting down and abandoning module PluginBrowser (412)
+[2020.11.06-00.47.19:908][783]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (410)
+[2020.11.06-00.47.19:909][783]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (408)
+[2020.11.06-00.47.19:910][783]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (406)
+[2020.11.06-00.47.19:910][783]LogModuleManager: Shutting down and abandoning module CurveEditorTools (404)
+[2020.11.06-00.47.19:912][783]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (402)
+[2020.11.06-00.47.19:913][783]LogModuleManager: Shutting down and abandoning module CryptoKeys (400)
+[2020.11.06-00.47.19:913][783]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (398)
+[2020.11.06-00.47.19:913][783]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (396)
+[2020.11.06-00.47.19:913][783]LogModuleManager: Shutting down and abandoning module UObjectPlugin (394)
+[2020.11.06-00.47.19:913][783]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (392)
+[2020.11.06-00.47.19:914][783]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (390)
+[2020.11.06-00.47.19:915][783]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (388)
+[2020.11.06-00.47.19:917][783]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (386)
+[2020.11.06-00.47.19:920][783]LogModuleManager: Shutting down and abandoning module GitSourceControl (384)
+[2020.11.06-00.47.19:922][783]LogModuleManager: Shutting down and abandoning module SourceControl (383)
+[2020.11.06-00.47.19:923][783]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (380)
+[2020.11.06-00.47.19:923][783]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (378)
+[2020.11.06-00.47.19:923][783]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (376)
+[2020.11.06-00.47.19:923][783]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (374)
+[2020.11.06-00.47.19:923][783]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (372)
+[2020.11.06-00.47.19:924][783]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (370)
+[2020.11.06-00.47.19:924][783]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (368)
+[2020.11.06-00.47.19:924][783]LogModuleManager: Shutting down and abandoning module Paper2DEditor (366)
+[2020.11.06-00.47.19:925][783]LogModuleManager: Shutting down and abandoning module SoundFields (364)
+[2020.11.06-00.47.19:925][783]LogModuleManager: Shutting down and abandoning module SignificanceManager (362)
+[2020.11.06-00.47.19:925][783]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (360)
+[2020.11.06-00.47.19:925][783]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (358)
+[2020.11.06-00.47.19:926][783]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (354)
+[2020.11.06-00.47.19:926][783]LogModuleManager: Shutting down and abandoning module ActorSequence (352)
+[2020.11.06-00.47.19:926][783]LogModuleManager: Shutting down and abandoning module UdpMessaging (350)
+[2020.11.06-00.47.20:027][783]LogModuleManager: Shutting down and abandoning module TcpMessaging (348)
+[2020.11.06-00.47.20:129][783]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (346)
+[2020.11.06-00.47.20:129][783]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (344)
+[2020.11.06-00.47.20:129][783]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (342)
+[2020.11.06-00.47.20:129][783]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (340)
+[2020.11.06-00.47.20:129][783]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (338)
+[2020.11.06-00.47.20:129][783]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.11.06-00.47.20:129][783]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (336)
+[2020.11.06-00.47.20:130][783]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (334)
+[2020.11.06-00.47.20:130][783]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (332)
+[2020.11.06-00.47.20:131][783]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (330)
+[2020.11.06-00.47.20:132][783]LogModuleManager: Shutting down and abandoning module MagicLeapController (328)
+[2020.11.06-00.47.20:134][783]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.11.06-00.47.20:135][783]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (326)
+[2020.11.06-00.47.20:135][783]LogModuleManager: Shutting down and abandoning module MagicLeapAR (324)
+[2020.11.06-00.47.20:135][783]LogModuleManager: Shutting down and abandoning module AugmentedReality (323)
+[2020.11.06-00.47.20:135][783]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (320)
+[2020.11.06-00.47.20:135][783]LogModuleManager: Shutting down and abandoning module Niagara (318)
+[2020.11.06-00.47.20:138][783]LogModuleManager: Shutting down and abandoning module SignalProcessing (317)
+[2020.11.06-00.47.20:139][783]LogModuleManager: Shutting down and abandoning module NiagaraEditor (315)
+[2020.11.06-00.47.20:143][783]LogModuleManager: Shutting down and abandoning module NiagaraCore (312)
+[2020.11.06-00.47.20:143][783]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (310)
+[2020.11.06-00.47.20:143][783]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (308)
+[2020.11.06-00.47.20:143][783]LogModuleManager: Shutting down and abandoning module FacialAnimation (306)
+[2020.11.06-00.47.20:143][783]LogModuleManager: Shutting down and abandoning module DataValidation (304)
+[2020.11.06-00.47.20:144][783]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (302)
+[2020.11.06-00.47.20:145][783]LogModuleManager: Shutting down and abandoning module LevelEditor (301)
+[2020.11.06-00.47.20:150][783]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (300)
+[2020.11.06-00.47.20:152][783]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (298)
+[2020.11.06-00.47.20:153][783]LogModuleManager: Shutting down and abandoning module MainFrame (296)
+[2020.11.06-00.47.20:154][783]LogModuleManager: Shutting down and abandoning module HotReload (295)
+[2020.11.06-00.47.20:156][783]LogModuleManager: Shutting down and abandoning module ToolMenus (291)
+[2020.11.06-00.47.20:156][783]LogModuleManager: Shutting down and abandoning module TreeMap (289)
+[2020.11.06-00.47.20:157][783]LogModuleManager: Shutting down and abandoning module AnimationSharing (286)
+[2020.11.06-00.47.20:157][783]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (284)
+[2020.11.06-00.47.20:157][783]LogModuleManager: Shutting down and abandoning module Paper2D (282)
+[2020.11.06-00.47.20:157][783]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (280)
+[2020.11.06-00.47.20:159][783]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (278)
+[2020.11.06-00.47.20:159][783]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (276)
+[2020.11.06-00.47.20:159][783]LogModuleManager: Shutting down and abandoning module PacketHandler (274)
+[2020.11.06-00.47.20:159][783]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (272)
+[2020.11.06-00.47.20:160][783]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (270)
+[2020.11.06-00.47.20:162][783]LogModuleManager: Shutting down and abandoning module MediaAssets (268)
+[2020.11.06-00.47.20:162][783]LogModuleManager: Shutting down and abandoning module Overlay (266)
+[2020.11.06-00.47.20:162][783]LogModuleManager: Shutting down and abandoning module OverlayEditor (265)
+[2020.11.06-00.47.20:162][783]LogModuleManager: Shutting down and abandoning module VREditor (262)
+[2020.11.06-00.47.20:163][783]LogModuleManager: Shutting down and abandoning module StringTableEditor (260)
+[2020.11.06-00.47.20:164][783]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (258)
+[2020.11.06-00.47.20:164][783]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (256)
+[2020.11.06-00.47.20:166][783]LogModuleManager: Shutting down and abandoning module FunctionalTesting (254)
+[2020.11.06-00.47.20:167][783]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (252)
+[2020.11.06-00.47.20:168][783]LogModuleManager: Shutting down and abandoning module UMG (250)
+[2020.11.06-00.47.20:168][783]LogModuleManager: Shutting down and abandoning module UMGEditor (249)
+[2020.11.06-00.47.20:170][783]LogModuleManager: Shutting down and abandoning module MessageLog (247)
+[2020.11.06-00.47.20:171][783]LogModuleManager: Shutting down and abandoning module MaterialEditor (245)
+[2020.11.06-00.47.20:174][783]LogModuleManager: Shutting down and abandoning module ContentBrowser (244)
+[2020.11.06-00.47.20:180][783]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (243)
+[2020.11.06-00.47.20:184][783]LogModuleManager: Shutting down and abandoning module SlateReflector (236)
+[2020.11.06-00.47.20:187][783]LogModuleManager: Shutting down and abandoning module Slate (234)
+[2020.11.06-00.47.20:187][783]LogModuleManager: Shutting down and abandoning module SlateCore (232)
+[2020.11.06-00.47.20:187][783]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (230)
+[2020.11.06-00.47.20:187][783]LogModuleManager: Shutting down and abandoning module UnrealEd (228)
+[2020.11.06-00.47.20:188][783]LogModuleManager: Shutting down and abandoning module MRMesh (226)
+[2020.11.06-00.47.20:188][783]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (224)
+[2020.11.06-00.47.20:188][783]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (222)
+[2020.11.06-00.47.20:188][783]LogModuleManager: Shutting down and abandoning module XAudio2 (220)
+[2020.11.06-00.47.20:189][783]LogModuleManager: Shutting down and abandoning module Networking (218)
+[2020.11.06-00.47.20:189][783]LogModuleManager: Shutting down and abandoning module Core (216)
+[2020.11.06-00.47.20:189][783]LogModuleManager: Shutting down and abandoning module MovieSceneTools (214)
+[2020.11.06-00.47.20:192][783]LogModuleManager: Shutting down and abandoning module CurveEditor (213)
+[2020.11.06-00.47.20:194][783]LogModuleManager: Shutting down and abandoning module Sequencer (211)
+[2020.11.06-00.47.20:198][783]LogModuleManager: Shutting down and abandoning module EditorStyle (210)
+[2020.11.06-00.47.20:211][783]LogModuleManager: Shutting down and abandoning module KismetCompiler (206)
+[2020.11.06-00.47.20:211][783]LogModuleManager: Shutting down and abandoning module MeshBuilder (204)
+[2020.11.06-00.47.20:211][783]LogModuleManager: Shutting down and abandoning module MeshUtilities (202)
+[2020.11.06-00.47.20:213][783]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (201)
+[2020.11.06-00.47.20:214][783]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (200)
+[2020.11.06-00.47.20:214][783]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (199)
+[2020.11.06-00.47.20:215][783]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (197)
+[2020.11.06-00.47.20:216][783]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (195)
+[2020.11.06-00.47.20:219][783]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (193)
+[2020.11.06-00.47.20:219][783]LogModuleManager: Shutting down and abandoning module MaterialBaking (189)
+[2020.11.06-00.47.20:220][783]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (184)
+[2020.11.06-00.47.20:220][783]LogModuleManager: Shutting down and abandoning module DerivedDataCache (182)
+[2020.11.06-00.47.20:221][783]LogModuleManager: Shutting down and abandoning module XGEController (180)
+[2020.11.06-00.47.20:222][783]LogModuleManager: Shutting down and abandoning module TargetPlatform (178)
+[2020.11.06-00.47.20:225][783]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (177)
+[2020.11.06-00.47.20:225][783]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (175)
+[2020.11.06-00.47.20:226][783]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (173)
+[2020.11.06-00.47.20:226][783]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (171)
+[2020.11.06-00.47.20:228][783]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (169)
+[2020.11.06-00.47.20:228][783]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (167)
+[2020.11.06-00.47.20:229][783]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (165)
+[2020.11.06-00.47.20:229][783]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (163)
+[2020.11.06-00.47.20:230][783]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (161)
+[2020.11.06-00.47.20:232][783]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (159)
+[2020.11.06-00.47.20:232][783]LogModuleManager: Shutting down and abandoning module ImageWrapper (158)
+[2020.11.06-00.47.20:232][783]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (155)
+[2020.11.06-00.47.20:233][783]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (153)
+[2020.11.06-00.47.20:233][783]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (151)
+[2020.11.06-00.47.20:233][783]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (149)
+[2020.11.06-00.47.20:233][783]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (147)
+[2020.11.06-00.47.20:233][783]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (145)
+[2020.11.06-00.47.20:234][783]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (143)
+[2020.11.06-00.47.20:234][783]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (141)
+[2020.11.06-00.47.20:234][783]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (139)
+[2020.11.06-00.47.20:294][783]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (137)
+[2020.11.06-00.47.20:319][783]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (135)
+[2020.11.06-00.47.20:319][783]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (133)
+[2020.11.06-00.47.20:319][783]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (131)
+[2020.11.06-00.47.20:319][783]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (129)
+[2020.11.06-00.47.20:319][783]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (127)
+[2020.11.06-00.47.20:319][783]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (125)
+[2020.11.06-00.47.20:320][783]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2020.11.06-00.47.20:320][783]LogModuleManager: Shutting down and abandoning module Messaging (121)
+[2020.11.06-00.47.20:320][783]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (119)
+[2020.11.06-00.47.20:334][783]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (117)
+[2020.11.06-00.47.20:388][783]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (115)
+[2020.11.06-00.47.20:388][783]LogModuleManager: Shutting down and abandoning module InputCore (112)
+[2020.11.06-00.47.20:389][783]LogModuleManager: Shutting down and abandoning module Settings (110)
+[2020.11.06-00.47.20:389][783]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2020.11.06-00.47.20:393][783]LogModuleManager: Shutting down and abandoning module PhysXCooking (106)
+[2020.11.06-00.47.20:393][783]LogModuleManager: Shutting down and abandoning module ChaosSolvers (104)
+[2020.11.06-00.47.20:395][783]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (103)
+[2020.11.06-00.47.20:396][783]LogModuleManager: Shutting down and abandoning module Chaos (100)
+[2020.11.06-00.47.20:397][783]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (98)
+[2020.11.06-00.47.20:398][783]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (97)
+[2020.11.06-00.47.20:398][783]LogModuleManager: Shutting down and abandoning module AVEncoder (96)
+[2020.11.06-00.47.20:398][783]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (92)
+[2020.11.06-00.47.20:399][783]LogModuleManager: Shutting down and abandoning module SteamVRInput (90)
+[2020.11.06-00.47.20:399][783]LogModuleManager: Shutting down and abandoning module SteamVR (88)
+[2020.11.06-00.47.20:400][783]LogHMD: Freeing OpenVRDLLHandle.
+[2020.11.06-00.47.20:400][783]LogModuleManager: Shutting down and abandoning module OculusHMD (86)
+[2020.11.06-00.47.20:400][783]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
+[2020.11.06-00.47.20:400][783]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
+[2020.11.06-00.47.20:400][783]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2020.11.06-00.47.20:400][783]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
+[2020.11.06-00.47.20:408][783]LogModuleManager: Shutting down and abandoning module XMPP (71)
+[2020.11.06-00.47.20:410][783]LogModuleManager: Shutting down and abandoning module WebSockets (70)
+[2020.11.06-00.47.20:451][783]LogModuleManager: Shutting down and abandoning module HTTP (67)
+[2020.11.06-00.47.20:452][783]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.11.06-00.47.20:452][783]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B52DC315C-48C4-C97B-B56A-36AFE962CE94%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.4-14469661%2B%2B%2BUE4%2BRelease-4.25&UserID=3c6c184f432846c5c842328b40579f53%7C5058352943ec4bb5b022fe48e68df1c9%7Cba515a2b-f4de-4947-8c01-3c78db60e1e1&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
+[2020.11.06-00.47.20:471][783]LogModuleManager: Shutting down and abandoning module SSL (66)
+[2020.11.06-00.47.20:490][783]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
+[2020.11.06-00.47.20:495][783]LogModuleManager: Shutting down and abandoning module Media (61)
+[2020.11.06-00.47.20:495][783]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
+[2020.11.06-00.47.20:496][783]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
+[2020.11.06-00.47.20:496][783]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
+[2020.11.06-00.47.20:497][783]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.11.06-00.47.20:497][783]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.11.06-00.47.20:497][783]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.11.06-00.47.20:497][783]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.11.06-00.47.20:499][783]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.11.06-00.47.20:499][783]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.11.06-00.47.20:499][783]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.11.06-00.47.20:499][783]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.11.06-00.47.20:501][783]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.11.06-00.47.20:507][783]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.11.06-00.47.20:515][783]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.11.06-00.47.20:515][783]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.11.06-00.47.20:515][783]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.11.06-00.47.20:515][783]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.11.06-00.47.20:525][783]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.11.06-00.47.20:526][783]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.11.06-00.47.20:526][783]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.11.06-00.47.20:526][783]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.11.06-00.47.20:528][783]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.11.06-00.47.20:528][783]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.11.06-00.47.20:528][783]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.11.06-00.47.20:529][783]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.11.06-00.47.20:529][783]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.11.06-00.47.20:529][783]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.11.06-00.47.20:530][783]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.11.06-00.47.20:534][783]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.11.06-00.47.20:536][783]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2020.11.06-00.47.20:558][783]LogD3D11RHI: Shutdown
+[2020.11.06-00.47.20:558][783]LogD3D11RHI: CleanupD3DDevice
+[2020.11.06-00.47.20:678][783]LogExit: Exiting.
+[2020.11.06-00.47.20:743][783]Log file closed, 11/05/20 19:47:20
