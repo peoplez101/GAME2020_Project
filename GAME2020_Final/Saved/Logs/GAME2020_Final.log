@@ -654,3 +654,13 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.11.22-05.01.52:773][280]LogSavePackage: Moving 'E:/Github/GAME2020_Project/GAME2020_Final/Saved/GameAFF7BAD04066A472C262B18745AC08AB.tmp' to 'E:/Github/GAME2020_Project/GAME2020_Final/Content/StarterContent/Maps/Game.umap'
 [2020.11.22-05.01.52:847][280]AssetCheck: New page: Asset Save: Game
 [2020.11.22-05.01.52:847][280]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Game.Game
+[2020.11.22-05.03.13:498][421]UATHelper: Zip Project Task (Windows): Running AutomationTool...
+[2020.11.22-05.03.13:499][421]UATHelper: Zip Project Task (Windows): Parsing command line: ZipProjectUp -nocompileeditor -project=E:/Github/GAME2020_Project/GAME2020_Final/ -install=E:/GAME2020_Final_Backup.zip
+[2020.11.22-05.03.13:831][422]UATHelper: Zip Project Task (Windows): Started zipping project up
+[2020.11.22-05.03.13:831][422]UATHelper: Zip Project Task (Windows): Project directory: E:\Github\GAME2020_Project\GAME2020_Final
+[2020.11.22-05.03.13:831][422]UATHelper: Zip Project Task (Windows): Install directory: E:/GAME2020_Final_Backup.zip
+[2020.11.22-05.03.13:831][422]UATHelper: Zip Project Task (Windows): Packaging up the project...
+[2020.11.22-05.03.55:881][547]UATHelper: Zip Project Task (Windows): Completed zipping project up
+[2020.11.22-05.03.55:881][547]UATHelper: Zip Project Task (Windows): BUILD SUCCESSFUL
+[2020.11.22-05.03.55:881][547]UATHelper: Zip Project Task (Windows): AutomationTool exiting with ExitCode=0 (Success)
+[2020.11.22-05.24.15:585][201]LogRenderer: Reallocating scene render targets to support 1256x648 Format 10 NumSamples 1 (Frame:1461).
