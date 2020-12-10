@@ -1640,3 +1640,309 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.12.10-22.14.12:886][103]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A333349000), frame # 52103
 [2020.12.10-22.14.12:890][103]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
 [2020.12.10-22.14.12:925][104]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2020.12.10-22.15.45:540][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2020.12.10-22.15.46:283][491]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Game_Auto4799643824923C44EE5FA01B0C8D9DE14.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StarterContent/Maps/Game_Auto4.umap'
+[2020.12.10-22.15.46:286][491]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Game' took 0.769
+[2020.12.10-22.15.46:286][491]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.769
+[2020.12.10-22.15.46:287][491]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Audio/sugar_rush] ([1] browsable assets)...
+[2020.12.10-22.15.46:295][491]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Audio/sugar_rush.sugar_rush]
+[2020.12.10-22.15.46:295][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/sugar_rush]
+[2020.12.10-22.15.46:319][491]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/sugar_rush_Auto40141620D442A9EAAF5EABC99D5D2E88D.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/Audio/sugar_rush_Auto4.uasset'
+[2020.12.10-22.15.46:321][491]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Audio/sugar_rush_Cue] ([1] browsable assets)...
+[2020.12.10-22.15.46:321][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Audio/sugar_rush_Cue]
+[2020.12.10-22.15.46:323][491]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/sugar_rush_Cue_Auto4C63D3EF544025265AD70B29F16F452A1.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/Audio/sugar_rush_Cue_Auto4.uasset'
+[2020.12.10-22.15.46:324][491]LogFileHelpers: Auto-saving content packages took 0.038
+[2020.12.10-22.33.54:220][775]LogEditorViewport: Clicking on Actor (LMB): Turret_C (Turret)
+[2020.12.10-22.33.54:904][776]LogEditorViewport: Clicking on Actor (LMB): Turret_C (Turret)
+[2020.12.10-22.33.55:061][777]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Cylinder)
+[2020.12.10-22.33.56:154][808]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Base)
+[2020.12.10-22.34.03:203][981]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Turret.Turret
+[2020.12.10-22.35.37:757][210]LogUObjectHash: Compacting FUObjectHashTables data took  13.05ms
+[2020.12.10-22.35.39:023][210]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Game_Auto56AC9C923444AF1AA50ABED8090C42D34.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/StarterContent/Maps/Game_Auto5.umap'
+[2020.12.10-22.35.39:035][210]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Game' took 1.380
+[2020.12.10-22.35.39:036][210]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.380
+[2020.12.10-22.35.39:038][210]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Turret] ([1] browsable assets)...
+[2020.12.10-22.35.39:060][210]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Turret.Turret]
+[2020.12.10-22.35.39:060][210]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Turret]
+[2020.12.10-22.35.39:188][210]LogSavePackage: Moving '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Turret_Auto5E2E685204B11C6ADC1379D80C0FF2761.tmp' to '../../../../../../Users/Raquel/Documents/GitHub/Sugar-Rush/GAME2020_Final/Saved/Autosaves/Game/Blueprints/Turret_Auto5.uasset'
+[2020.12.10-22.35.39:191][210]LogFileHelpers: Auto-saving content packages took 0.154
+[2020.12.10-22.36.08:810][392]BlueprintLog: New page: Compile Turret
+[2020.12.10-22.36.09:002][392]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2020.12.10-22.36.10:868][410]LogSlate: Window 'Turret' being destroyed
+[2020.12.10-22.36.10:981][410]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-22.36.10:983][410]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-22.36.12:669][442]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.10-22.36.12:698][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.10-22.36.12:713][442]PIE: New page: PIE session: Game (Dec. 10, 2020, 12:36:12 p.m.)
+[2020.12.10-22.36.12:718][442]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Game
+[2020.12.10-22.36.12:898][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.179226s)
+[2020.12.10-22.36.12:906][442]LogAIModule: Creating AISystem for world Game
+[2020.12.10-22.36.12:908][442]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A3A001F400), frame # 57442
+[2020.12.10-22.36.12:911][442]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A3A4534E00), frame # 57442
+[2020.12.10-22.36.12:913][442]LogPlayLevel: PIE: World Init took: (0.015169s)
+[2020.12.10-22.36.12:914][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Game.Game to /Game/StarterContent/Maps/UEDPIE_0_Game.Game (0.195870s)
+[2020.12.10-22.36.12:946][442]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2020.12.10-22.36.12:957][442]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.10-22.36.12:957][442]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.10-22.36.12:957][442]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.10-22.36.12:957][442]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.10-22.36.12:957][442]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.10-22.36.12:957][442]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.10-22.36.12:957][442]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.10-22.36.12:958][442]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.10-22.36.12:961][442]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.10-22.36.12:961][442]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.10-22.36.12:970][442]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.10-22.36.12:970][442]LogAudioMixer: Display: 1: FrontRight
+[2020.12.10-22.36.12:996][442]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.12.10-22.36.12:999][442]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.10-22.36.12:999][442]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.10-22.36.13:000][442]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.10-22.36.13:004][442]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.10-22.36.13:018][442]LogInit: FAudioDevice initialized.
+[2020.12.10-22.36.13:057][442]LogLoad: Game class is 'NewGameMode_C'
+[2020.12.10-22.36.13:104][442]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Game.Game up for play (max tick rate 0) at 2020.12.10-17.36.13
+[2020.12.10-22.36.13:106][442]LogWorld: Bringing up level for play took: 0.038245
+[2020.12.10-22.36.13:116][442]LogOnline: OSS: Creating online subsystem instance for: :Context_29
+[2020.12.10-22.36.13:145][442]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.12.10-22.36.13:145][442]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.12.10-22.36.13:145][442]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.12.10-22.36.13:253][442]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.12.10-22.36.13:255][442]PIE: Server logged in
+[2020.12.10-22.36.13:256][442]PIE: Play in editor total start time 0.569 seconds.
+[2020.12.10-22.36.13:949][459]LogAudio: Warning: Detected orphaned looping sound 'sugar_rush'.
+[2020.12.10-22.36.27:824][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-22.36.27:824][868]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Game
+[2020.12.10-22.36.27:827][868]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-22.36.27:843][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-22.36.27:864][868]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.10-22.36.27:869][868]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-22.36.27:894][868]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSRiver_3) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.36.27:895][868]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSRiver_1) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.36.27:895][868]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSWaterBody_3) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.36.27:921][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-22.36.27:950][868]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A3A4534E00), frame # 57868
+[2020.12.10-22.36.27:950][868]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A3A001F400), frame # 57868
+[2020.12.10-22.36.27:960][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.12.10-22.36.27:992][869]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2020.12.10-22.36.32:496][994]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Turret.Turret
+[2020.12.10-22.37.46:029][912]LogRenderer: Reallocating scene render targets to support 964x544 Format 10 NumSamples 1 (Frame:1).
+[2020.12.10-22.39.00:522][443]BlueprintLog: New page: Compile Turret
+[2020.12.10-22.39.00:676][443]LogUObjectHash: Compacting FUObjectHashTables data took   4.36ms
+[2020.12.10-22.39.01:498][456]LogSlate: Window 'Turret' being destroyed
+[2020.12.10-22.39.01:561][456]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-22.39.01:561][456]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-22.39.02:983][489]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.10-22.39.03:001][489]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.10-22.39.03:001][489]PIE: New page: PIE session: Game (Dec. 10, 2020, 12:39:03 p.m.)
+[2020.12.10-22.39.03:001][489]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Game
+[2020.12.10-22.39.03:119][489]LogPlayLevel: PIE: StaticDuplicateObject took: (0.116796s)
+[2020.12.10-22.39.03:122][489]LogAIModule: Creating AISystem for world Game
+[2020.12.10-22.39.03:124][489]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A442779E00), frame # 60489
+[2020.12.10-22.39.03:124][489]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A301998900), frame # 60489
+[2020.12.10-22.39.03:125][489]LogPlayLevel: PIE: World Init took: (0.003872s)
+[2020.12.10-22.39.03:125][489]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Game.Game to /Game/StarterContent/Maps/UEDPIE_0_Game.Game (0.122804s)
+[2020.12.10-22.39.03:152][489]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.12.10-22.39.03:154][489]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.10-22.39.03:154][489]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.10-22.39.03:154][489]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.10-22.39.03:154][489]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.10-22.39.03:154][489]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.10-22.39.03:154][489]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.10-22.39.03:154][489]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.10-22.39.03:154][489]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.10-22.39.03:154][489]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.10-22.39.03:154][489]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.10-22.39.03:157][489]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.10-22.39.03:157][489]LogAudioMixer: Display: 1: FrontRight
+[2020.12.10-22.39.03:176][489]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.12.10-22.39.03:176][489]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.10-22.39.03:176][489]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.10-22.39.03:176][489]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.10-22.39.03:177][489]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.10-22.39.03:194][489]LogInit: FAudioDevice initialized.
+[2020.12.10-22.39.03:202][489]LogLoad: Game class is 'NewGameMode_C'
+[2020.12.10-22.39.03:222][489]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Game.Game up for play (max tick rate 0) at 2020.12.10-17.39.03
+[2020.12.10-22.39.03:222][489]LogWorld: Bringing up level for play took: 0.018192
+[2020.12.10-22.39.03:223][489]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.12.10-22.39.03:225][489]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.12.10-22.39.03:225][489]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.12.10-22.39.03:225][489]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.12.10-22.39.03:233][489]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.12.10-22.39.03:233][489]PIE: Server logged in
+[2020.12.10-22.39.03:234][489]PIE: Play in editor total start time 0.234 seconds.
+[2020.12.10-22.39.03:865][506]LogAudio: Warning: Detected orphaned looping sound 'sugar_rush'.
+[2020.12.10-22.39.20:520][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-22.39.20:520][994]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Game
+[2020.12.10-22.39.20:521][994]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-22.39.20:530][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-22.39.20:573][994]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.10-22.39.20:577][994]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-22.39.20:597][994]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSWaterBody_3) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.39.20:600][994]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSRiver_3) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.39.20:601][994]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSRiver_1) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.39.20:623][994]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-22.39.20:646][994]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A301998900), frame # 60994
+[2020.12.10-22.39.20:646][994]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A442779E00), frame # 60994
+[2020.12.10-22.39.20:651][994]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.12.10-22.39.20:686][995]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.12.10-22.39.22:616][ 42]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.10-22.39.22:635][ 42]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.10-22.39.22:635][ 42]PIE: New page: PIE session: Game (Dec. 10, 2020, 12:39:22 p.m.)
+[2020.12.10-22.39.22:635][ 42]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Game
+[2020.12.10-22.39.22:745][ 42]LogPlayLevel: PIE: StaticDuplicateObject took: (0.109905s)
+[2020.12.10-22.39.22:747][ 42]LogAIModule: Creating AISystem for world Game
+[2020.12.10-22.39.22:747][ 42]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A3A3EBAE00), frame # 61042
+[2020.12.10-22.39.22:748][ 42]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A338E4EE80), frame # 61042
+[2020.12.10-22.39.22:748][ 42]LogPlayLevel: PIE: World Init took: (0.002594s)
+[2020.12.10-22.39.22:748][ 42]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Game.Game to /Game/StarterContent/Maps/UEDPIE_0_Game.Game (0.112836s)
+[2020.12.10-22.39.22:770][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2020.12.10-22.39.22:773][ 42]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.10-22.39.22:773][ 42]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.10-22.39.22:773][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.10-22.39.22:773][ 42]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.10-22.39.22:773][ 42]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.10-22.39.22:773][ 42]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.10-22.39.22:773][ 42]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.10-22.39.22:773][ 42]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.10-22.39.22:774][ 42]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.10-22.39.22:774][ 42]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.10-22.39.22:777][ 42]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.10-22.39.22:777][ 42]LogAudioMixer: Display: 1: FrontRight
+[2020.12.10-22.39.22:801][ 42]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.12.10-22.39.22:801][ 42]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.10-22.39.22:801][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.10-22.39.22:801][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.10-22.39.22:801][ 42]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.10-22.39.22:820][ 42]LogInit: FAudioDevice initialized.
+[2020.12.10-22.39.22:830][ 42]LogLoad: Game class is 'NewGameMode_C'
+[2020.12.10-22.39.22:855][ 42]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Game.Game up for play (max tick rate 0) at 2020.12.10-17.39.22
+[2020.12.10-22.39.22:856][ 42]LogWorld: Bringing up level for play took: 0.024408
+[2020.12.10-22.39.22:856][ 42]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.12.10-22.39.22:859][ 42]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.12.10-22.39.22:859][ 42]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.12.10-22.39.22:859][ 42]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.12.10-22.39.22:871][ 42]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.12.10-22.39.22:871][ 42]PIE: Server logged in
+[2020.12.10-22.39.22:872][ 42]PIE: Play in editor total start time 0.237 seconds.
+[2020.12.10-22.39.23:780][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-22.39.23:780][ 56]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Game
+[2020.12.10-22.39.23:781][ 56]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-22.39.23:787][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-22.39.23:822][ 56]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.10-22.39.23:826][ 56]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-22.39.23:846][ 56]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-22.39.23:849][ 56]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSRiver_3) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.39.23:849][ 56]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSRiver_1) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.39.23:849][ 56]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSWaterBody_3) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.39.23:876][ 56]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A338E4EE80), frame # 61056
+[2020.12.10-22.39.23:876][ 56]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A3A3EBAE00), frame # 61056
+[2020.12.10-22.39.23:881][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.12.10-22.39.23:910][ 57]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.12.10-22.40.57:329][952]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.10-22.40.57:347][952]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.10-22.40.57:347][952]PIE: New page: PIE session: Game (Dec. 10, 2020, 12:40:57 p.m.)
+[2020.12.10-22.40.57:347][952]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Game
+[2020.12.10-22.40.57:457][952]LogPlayLevel: PIE: StaticDuplicateObject took: (0.110373s)
+[2020.12.10-22.40.57:459][952]LogAIModule: Creating AISystem for world Game
+[2020.12.10-22.40.57:459][952]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A44CF10A00), frame # 61952
+[2020.12.10-22.40.57:459][952]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A42A545300), frame # 61952
+[2020.12.10-22.40.57:460][952]LogPlayLevel: PIE: World Init took: (0.002953s)
+[2020.12.10-22.40.57:460][952]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Game.Game to /Game/StarterContent/Maps/UEDPIE_0_Game.Game (0.113853s)
+[2020.12.10-22.40.57:485][952]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2020.12.10-22.40.57:492][952]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.10-22.40.57:492][952]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.10-22.40.57:492][952]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.10-22.40.57:492][952]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.10-22.40.57:492][952]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.10-22.40.57:492][952]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.10-22.40.57:492][952]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.10-22.40.57:492][952]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.10-22.40.57:492][952]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.10-22.40.57:492][952]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.10-22.40.57:495][952]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.10-22.40.57:495][952]LogAudioMixer: Display: 1: FrontRight
+[2020.12.10-22.40.57:514][952]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.12.10-22.40.57:515][952]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.10-22.40.57:515][952]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.10-22.40.57:515][952]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.10-22.40.57:515][952]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.10-22.40.57:530][952]LogInit: FAudioDevice initialized.
+[2020.12.10-22.40.57:537][952]LogLoad: Game class is 'NewGameMode_C'
+[2020.12.10-22.40.57:556][952]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Game.Game up for play (max tick rate 0) at 2020.12.10-17.40.57
+[2020.12.10-22.40.57:557][952]LogWorld: Bringing up level for play took: 0.017975
+[2020.12.10-22.40.57:557][952]LogOnline: OSS: Creating online subsystem instance for: :Context_35
+[2020.12.10-22.40.57:559][952]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.12.10-22.40.57:559][952]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.12.10-22.40.57:559][952]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.12.10-22.40.57:567][952]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.12.10-22.40.57:567][952]PIE: Server logged in
+[2020.12.10-22.40.57:568][952]PIE: Play in editor total start time 0.222 seconds.
+[2020.12.10-22.40.58:178][969]LogAudio: Warning: Detected orphaned looping sound 'sugar_rush'.
+[2020.12.10-22.41.24:950][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-22.41.24:950][771]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Game
+[2020.12.10-22.41.24:950][771]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-22.41.24:955][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-22.41.24:970][771]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.10-22.41.24:978][771]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-22.41.25:002][771]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSRiver_3) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.41.25:002][771]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSRiver_1) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.41.25:002][771]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSWaterBody_3) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.41.25:028][771]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-22.41.25:060][771]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A42A545300), frame # 62771
+[2020.12.10-22.41.25:060][771]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A44CF10A00), frame # 62771
+[2020.12.10-22.41.25:066][771]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2020.12.10-22.41.25:113][772]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2020.12.10-22.41.26:456][808]LogTemp: Repeating last play command: Selected Viewport
+[2020.12.10-22.41.26:479][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.10-22.41.26:479][808]PIE: New page: PIE session: Game (Dec. 10, 2020, 12:41:26 p.m.)
+[2020.12.10-22.41.26:479][808]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Game
+[2020.12.10-22.41.26:608][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.128561s)
+[2020.12.10-22.41.26:610][808]LogAIModule: Creating AISystem for world Game
+[2020.12.10-22.41.26:610][808]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001A44CF10600), frame # 62808
+[2020.12.10-22.41.26:610][808]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001A39FFF5D00), frame # 62808
+[2020.12.10-22.41.26:611][808]LogPlayLevel: PIE: World Init took: (0.003014s)
+[2020.12.10-22.41.26:611][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Game.Game to /Game/StarterContent/Maps/UEDPIE_0_Game.Game (0.131991s)
+[2020.12.10-22.41.26:635][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.12.10-22.41.26:638][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.12.10-22.41.26:638][808]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.12.10-22.41.26:638][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.12.10-22.41.26:638][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.12.10-22.41.26:638][808]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.12.10-22.41.26:638][808]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.12.10-22.41.26:638][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.12.10-22.41.26:638][808]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.12.10-22.41.26:639][808]LogAudio: Display: Using built-in audio occlusion.
+[2020.12.10-22.41.26:639][808]LogAudioMixer: Display: Initializing audio mixer.
+[2020.12.10-22.41.26:643][808]LogAudioMixer: Display: 0: FrontLeft
+[2020.12.10-22.41.26:643][808]LogAudioMixer: Display: 1: FrontRight
+[2020.12.10-22.41.26:663][808]LogAudioMixer: Display: Using Audio Device Speakers (Realtek(R) Audio)
+[2020.12.10-22.41.26:663][808]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.12.10-22.41.26:663][808]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.12.10-22.41.26:663][808]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.12.10-22.41.26:664][808]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.12.10-22.41.26:681][808]LogInit: FAudioDevice initialized.
+[2020.12.10-22.41.26:690][808]LogLoad: Game class is 'NewGameMode_C'
+[2020.12.10-22.41.26:717][808]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Game.Game up for play (max tick rate 0) at 2020.12.10-17.41.26
+[2020.12.10-22.41.26:718][808]LogWorld: Bringing up level for play took: 0.025884
+[2020.12.10-22.41.26:718][808]LogOnline: OSS: Creating online subsystem instance for: :Context_36
+[2020.12.10-22.41.26:720][808]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2020.12.10-22.41.26:720][808]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2020.12.10-22.41.26:720][808]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2020.12.10-22.41.26:730][808]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2020.12.10-22.41.26:730][808]PIE: Server logged in
+[2020.12.10-22.41.26:730][808]PIE: Play in editor total start time 0.252 seconds.
+[2020.12.10-22.41.26:890][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-22.41.26:890][809]LogWorld: BeginTearingDown for /Game/StarterContent/Maps/UEDPIE_0_Game
+[2020.12.10-22.41.26:891][809]LogWorld: UWorld::CleanupWorld for Game, bSessionEnded=true, bCleanupResources=true
+[2020.12.10-22.41.26:895][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-22.41.26:905][809]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.12.10-22.41.26:911][809]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.12.10-22.41.26:937][809]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSRiver_3) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.41.26:937][809]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSRiver_1) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.41.26:937][809]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.12.10-22.41.26:937][809]LogScript: Warning: Script Msg: No world was found for object (/Game/StarterContent/Maps/UEDPIE_0_Game.Game:PersistentLevel.UIWSWaterBody_3) passed in to UEngine::GetWorldFromContextObject().
+[2020.12.10-22.41.26:965][809]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001A39FFF5D00), frame # 62809
+[2020.12.10-22.41.26:965][809]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001A44CF10600), frame # 62809
+[2020.12.10-22.41.26:972][809]LogUObjectHash: Compacting FUObjectHashTables data took   4.22ms
+[2020.12.10-22.41.27:012][810]LogPlayLevel: Display: Destroying online subsystem :Context_36
